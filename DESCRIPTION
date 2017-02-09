@@ -5,6 +5,8 @@ Version: 0.3.3
 Author: Danny Wende
 Maintainer: Danny Wende <wende@wig2.de>
 Description: fast regression of the german "Morbi-RSA" (risk ajustment) and calculation regional models.
+URL: http://github.com/AaarrrRokie/GWR
+BugReports: http://github.com/AaarrrRookie/GWR/issues
 License: proprietary
 LazyData: FALSE
 Imports:
