@@ -1,0 +1,13 @@
+Package: GWR
+Type: Package
+Title: fGWR
+Version: 0.3.3
+Author: Danny Wende
+Maintainer: Danny Wende <wende@wig2.de>
+Description: fast regression of the german "Morbi-RSA" (risk ajustment) and calculation regional models.
+License: proprietary
+LazyData: FALSE
+Imports:
+    Rcpp (>= 0.12.4), RcppEigen, data.table, Matrix, openxlsx
+LinkingTo:
+    Rcpp, RcppEigen, data.table, Matrix, openxlsx

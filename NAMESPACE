@@ -1,0 +1,7 @@
+exportPattern("^[[:alpha:]]+")
+import(Matrix)
+import(data.table)
+import(openxlsx)
+import(RcppEigen)
+importFrom(Rcpp, evalCpp)
+useDynLib(GWR)
