@@ -7,7 +7,7 @@ write.fit(morbiSet,fit.MRSA,fit.Reg,file="")
 
 }
 \description{
-Schreiben der Ergebnisse in eine Excel-Datei
+Schreiben der Ergebnisse in eine Excel-Datei.
 }
 \examples{
 
