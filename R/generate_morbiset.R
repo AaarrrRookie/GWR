@@ -1,4 +1,4 @@
-library(Matrix)
+require(Matrix)
 
 ######################################################################
 # Create the MorbiSet
@@ -16,7 +16,9 @@ morbiSet <- setClass(
     Kost = "numeric",
     tage="numeric",
     verstorben="numeric",
-    plz="integer"
+    plz="integer",
+    jahr="integer",
+    model="character"
   ),
 
   # Standardwerte der slots
@@ -25,7 +27,9 @@ morbiSet <- setClass(
     Kost = rep(1,10),                                      # 1x10 Vektor bestehend aus der Zahl 1
     tage = rep(365,10),# 1x10 Vektor bestehend aus der Zahl 365
     verstorben = rep(1,10),
-    plz = 1:10                                             # 1x10 Vektor bestehend aus den Zahlen 1 bis 10
+    plz = 1:10,                                             # 1x10 Vektor bestehend aus den Zahlen 1 bis 10
+    jahr = 9999L,
+    model = "nicht angegeben"
   ),
 
   # Funtion zur kontrolle der Validität der eingebundenen Daten
@@ -92,12 +96,28 @@ setMethod(f="sampleMorbiSet",   # für was
 )
 
 
+summary.morbiSet<-function(theObject){
+
+  cat(paste0("Model: ",theObject@model, " im Datenjahr: ",theObject@jahr,"\n\n"))
+  cat(paste0("Risikogruppen: ", ncol(theObject@X),"\n"))
+  cat(paste0("Anz. Versicherte: ", round(nrow(theObject@X)/1000000,2)," Mio.","\n"))
+  cat(paste0("Anz. Verstorbene: ", round(sum(theObject@verstorben)/1000,2)," Tausend","\n"))
+  cat(paste0("Anz. Regionen: ",length(unique(theObject@plz)),"\n"))
+}
+
+
 ##################################################################################################################################################
 
 
 
 # Initialisierungsfunktion für Objekt morbiSet
-gen_morbiSet <- function(formula,tage,plz,verstorben,data){ # Funktion erwartet eine Formel, tage als string, plz als string und eine Herkunft (data) kann SQL, csv oder Rdata sein
+gen_morbiSet <- function(formula,
+                         tage,
+                         plz,
+                         verstorben,
+                         data,
+                         jahr = 9999,
+                         model = "nicht angegeben"){ # Funktion erwartet eine Formel, tage als string, plz als string und eine Herkunft (data) kann SQL, csv oder Rdata sein
 
 
   X <- sparse.model.matrix(formula,data)    # X ist dünn besetze Matrix definiert aus der Formel z.B. ~ 1 ergibt eine Matrix mit einer Spalte die nur 1 enthält oder
@@ -114,7 +134,13 @@ gen_morbiSet <- function(formula,tage,plz,verstorben,data){ # Funktion erwartet 
   X@Dimnames[[2]]<-Names
 
 
-  theObject<-morbiSet(X=X,Kost=Kost,tage=tage,plz=plz,verstorben=verstorben) # das Objekt wird als morbiSet mit den Komponenten gebaut
+  theObject<-morbiSet(X=X,
+                      Kost=Kost,
+                      tage=tage,
+                      plz=plz,
+                      verstorben=verstorben,
+                      jahr=jahr,
+                      model=model) # das Objekt wird als morbiSet mit den Komponenten gebaut
 
   return(theObject)                        # gebe das Objekt zurück (klasse morbiSet)
 

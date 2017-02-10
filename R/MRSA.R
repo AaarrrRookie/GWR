@@ -1,11 +1,15 @@
 
-# Definition der Funktion für ein morbiSet
+# Definition der Funktion für ein theObject
 # Funktion entspricht dem Morbi-RSA
-# angewendet auf das morbiSet nach Kost = Xb + Fehler
+# angewendet auf das theObject nach Kost = Xb + Fehler
 
-MRSA<-function(morbiSet,Standfehler=TRUE,Hochkosten="kein",neg_coef_control=FALSE,...){
+MRSA<-function(theObject,
+               Standfehler=TRUE,
+               Hochkosten="kein",
+               Hierarchie=FALSE,
+               ...){
 
-  # morbiSet - Daten der classe morbiSet
+  # theObject - Daten der classe theObject
   # Standfehler - Standardfehler wird berechnet
   # Hochkosten - ein Hochkostenmodell wird angewendet (kein, RP1, RP2, HCP, KP100)
   # neg_coef_control - negative Regressionskoeffizienten werden eliminiert
@@ -31,35 +35,35 @@ MRSA<-function(morbiSet,Standfehler=TRUE,Hochkosten="kein",neg_coef_control=FALS
   }
 
   fit<-fitMorbiRSA()                     # Initialisiere ein leeres Objekt vom Typ fitMorbiRSA
-  fit<-setOld(fit,morbiSet,"MRSA")       # Fülle das Objekt fit mit Informationen aus dem morbiSet
+  fit<-setOld(fit,theObject,"MRSA")       # Fülle das Objekt fit mit Informationen aus dem theObject
 
-  w<-morbiSet@tage/max(morbiSet@tage)    # Definiere Gewichtung als Tage/max(Tage)
+  w<-theObject@tage/max(theObject@tage)    # Definiere Gewichtung als Tage/max(Tage)
 
-  M<-morbiSet@X@i+1                      # Definiere Ort von nicht Nullelementen von X (beachten X zählt von 0, R zählt aber von 1)
+  M<-theObject@X@i+1                      # Definiere Ort von nicht Nullelementen von X (beachten X zählt von 0, R zählt aber von 1)
 
 
 # Auswahl des Hochkostenfalls
   if(Hochkosten=="kein"){
-    Y<-morbiSet@Kost/w                   # Anualisieren und Ergebnis mit dem Zeiger Y versehen
+    Y<-theObject@Kost/w                   # Anualisieren und Ergebnis mit dem Zeiger Y versehen
     Z_HK<-rep(0,length(Y))               # Hochkosten sind 0 und jeder hat diese Hochkosten von 0 -> Vektor nur mit 0
   }else if(Hochkosten=="KP100"){
     print("Risikopool KP100")
-    HK<-KP100(morbiSet,...)              # Hochkosten aus KP100 angewendet auf morbiSet unter den Einstellungen ...
+    HK<-KP100(theObject,...)              # Hochkosten aus KP100 angewendet auf theObject unter den Einstellungen ...
     Y<-HK$LA_NK/w                        # Anualisieren und Ergebnis aus Normalkosten mit dem Zeiger Y versehen
     Z_HK<-HK$HK_Z                        # Hochkosten sind das Ergebnise und Ergeben extra Zuschlage
   }else if(Hochkosten=="RP1"){
     print("Risikopool RP1")
-    HK<-RP1(morbiSet,...)                # Hochkosten aus KP100 angewendet auf morbiSet unter den Einstellungen ...
+    HK<-RP1(theObject,...)                # Hochkosten aus KP100 angewendet auf theObject unter den Einstellungen ...
     Y<-HK$LA_NK/w                        # Anualisieren und Ergebnis aus Normalkosten mit dem Zeiger Y versehen
     Z_HK<-HK$HK_Z
   }else if(Hochkosten=="RP2"){
     print("Risikopool RP2")
-    HK<-RP2(morbiSet,...)                # Hochkosten aus KP100 angewendet auf morbiSet unter den Einstellungen ...
+    HK<-RP2(theObject,...)                # Hochkosten aus KP100 angewendet auf theObject unter den Einstellungen ...
     Y<-HK$LA_NK/w                        # Anualisieren und Ergebnis aus Normalkosten mit dem Zeiger Y versehen
     Z_HK<-HK$HK_Z
   }else if(Hochkosten=="HCP"){
     print("Risikopool HCP")
-    HK<-HCP(morbiSet,...)                # Hochkosten aus KP100 angewendet auf morbiSet unter den Einstellungen ...
+    HK<-HCP(theObject,...)                # Hochkosten aus KP100 angewendet auf theObject unter den Einstellungen ...
     Y<-HK$LA_NK/w                        # Anualisieren und Ergebnis aus Normalkosten mit dem Zeiger Y versehen
     Z_HK<-HK$HK_Z
   }else{
@@ -70,30 +74,20 @@ MRSA<-function(morbiSet,Standfehler=TRUE,Hochkosten="kein",neg_coef_control=FALS
 
   print("0-Modell")
 
-  B<-solver(morbiSet@X,Y,w,M)                         # Löse Gleichungssystem über solver
+  B<-solver(theObject@X,Y,w,M)                         # Löse Gleichungssystem über solver
 
-  risk.in<-c(1:ncol(morbiSet@X))                      # Alle B sind gültige Risikofaktoren (>0 und Hierarchi)
+  if(Hierarchie==TRUE){
+     data(Hierarchie_Daten)
+     if(!theObject@jahr %in% Hierarchie_Daten$Jahr){
+        stop(paste0("Keine Hierarchisierung für Datenjahr ",theObject@jahr," möglich"))
+     }
+     Fehler<-Hierarchie_Kontrolle(B,theObject)
+     theObject<-Hierarchie_Anwendung(Fehler,theObject)
 
-  if(neg_coef_control==TRUE){                         # wenn Verletzung überprüfen
-
-    repeat{
-      if(min(B)>0){break}                             # keine Verletzung dann stopp (break)
-
-      print(paste0("Finde ",length(which(B<0))," kleiner Null"))
-
-      risk.in<-risk.in[-which(B<0)]                   # Neue Risikofaktoren sind Risikofaktoren ohne Verletzung
-
-      B<-solver(morbiSet@X[,risk.in],Y,w,M)           # Lösung durch solve
-    }
-
-    Z<-((morbiSet@X[,risk.in]%*%B)*w)@x+Z_HK          # Zuweisung sind Morbi-Zuweisung (nur geprüfte Faktoren) + Hochkosten (geg. 0)
-  }else{
-
-    Z<-((morbiSet@X%*%B)*w)@x+Z_HK                    # Zuweisung sind Morbi-Zuweisung (alle geprüfte Faktoren) + Hochkosten (geg. 0)
-
+     B<-solver(theObject@X,Y,w,M)
   }
 
-
+  Z<-(theObject@X%*%B*w)@x
 
   fit<-setZuweisung(fit,Z)                          # Erweitere das Ojekt fit um Zuweisungen
 
@@ -101,8 +95,8 @@ MRSA<-function(morbiSet,Standfehler=TRUE,Hochkosten="kein",neg_coef_control=FALS
   # Prüfe die Summentreue
   # Wenn Zuweisung und Kosten mehr als 100 Euro in Summe auseinander dann Fehler
 
-  if(abs(sum(Z-morbiSet@Kost))>100){
-    warning(paste0("Fehler in der Regresion: ",sum(Z-morbiSet@Kost)))  # Sage mir das etwas Falsch ist
+  if(abs(sum(Z-theObject@Kost))>100){
+    warning(paste0("Fehler in der Regresion: ",sum(Z-theObject@Kost)))  # Sage mir das etwas Falsch ist
   }
 
 
@@ -111,16 +105,16 @@ MRSA<-function(morbiSet,Standfehler=TRUE,Hochkosten="kein",neg_coef_control=FALS
 if(Standfehler==TRUE){
   print("Varianz-Kovarianz")
 
-  freiheitsG<-nrow(morbiSet@X)-(ncol(morbiSet@X))     # Freiheitsgrade sind Zeilen von X minus Spalten von X
+  freiheitsG<-nrow(theObject@X)-(ncol(theObject@X))     # Freiheitsgrade sind Zeilen von X minus Spalten von X
 
-  u<-morbiSet@Kost-Z                                  # Fehler u ist Kosten minus Zuweisung
+  u<-theObject@Kost-Z                                  # Fehler u ist Kosten minus Zuweisung
   sigma<-(t(u)%*%u)/freiheitsG	                      # Standardabweichung der Fehler (sigma) ist Summe u^2 / Freiheit
   sigma<-sigma[1,1]                                   # sigma zu skalar (bzw. erste Element der Einelementigen Matrix)
 
 
-  V<-diag(qr.solve(crossprod(morbiSet@X*w,morbiSet@X)))*sigma # Varianz der Koeffizienten siehe Standardwerke der Statistik
+  V<-diag(qr.solve(crossprod(theObject@X*w,theObject@X)))*sigma # Varianz der Koeffizienten siehe Standardwerke der Statistik
 
-  fit<-setCoef(fit,V[risk.in],B)                      # Ergänze Objekt fit um Koeffizienten und deren Standardfehler
+  fit<-setCoef(fit,V,B)                      # Ergänze Objekt fit um Koeffizienten und deren Standardfehler
 
 }
   else{
@@ -152,7 +146,7 @@ Zuschlaege.MRSA<-function(fit.MRSA,GP){
   M<-match(names(Z),Ausgleich_2013$Risikogruppe)
 
 
-  Result<-morbiSet.frame(names(Z),Ausgleich_2013$Bezeichnung[M],Regression=Z,BVA=Ausgleich_2013[M,3])
+  Result<-theObject.frame(names(Z),Ausgleich_2013$Bezeichnung[M],Regression=Z,BVA=Ausgleich_2013[M,3])
   Result$Dif_abs<-Result$Regression-Result$BVA
   Result$Dif_rel<-Result$Regression/Result$BVA-1
 
@@ -162,3 +156,82 @@ Zuschlaege.MRSA<-function(fit.MRSA,GP){
   write.table(Result,paste0("Auswertung\\Regression_",stichprobe,".csv"),row.names=FALSE,sep=";",dec=",")
 }
 
+
+
+
+Hierarchie_Kontrolle<-function(B, theObject){
+  if("HMG" %in% substring(names(B),1,3)){
+    Hierarchie_Baum<-Hierarchie_Daten[Hierarchie_Daten$Jahr==theObject@jahr,c(3,4)]
+
+    extra_null<-min(nchar(names(B)[substring(names(B),1,3)=="HMG"]))-4
+
+    Hierarchie_Baum$A<-paste0("HMG",rep(0,extra_null),Hierarchie_Baum$A)
+    Hierarchie_Baum$B<-paste0("HMG",rep(0,extra_null),Hierarchie_Baum$B)
+  }else if("hmg" %in% substring(names(B),1,3)){
+    Hierarchie_Baum<-Hierarchie_Daten[Hierarchie_Daten$Jahr==theObject@jahr,c(3,4)]
+
+    extra_null<-min(nchar(names(B)[substring(names(B),1,3)=="hmg"]))-4
+
+    Hierarchie_Baum$A<-paste0("hmg",rep(0,extra_null),Hierarchie_Baum$A)
+    Hierarchie_Baum$B<-paste0("hmg",rep(0,extra_null),Hierarchie_Baum$B)
+  }else{
+    warnings("Keine HMG gefunden")
+    return(data.frame(0))
+  }
+
+  n<-nrow(Hierarchie_Baum)
+  names_B<-names(B)
+
+  Fehler<-c()
+
+  for(i in 1:nrow(Hierarchie_Baum)){
+      B_A<-B[which(names_B==Hierarchie_Baum$A[i])]
+      B_B<-B[which(names_B==Hierarchie_Baum$B[i])]
+
+      if(length(B_A)>0&length(B_B)>0){
+        if(B_B>B_A){
+          cat("Hierarchieverletzung: ")
+          cat(paste0(Hierarchie_Baum$A[i]," < ",Hierarchie_Baum$B[i]))
+          cat("\n")
+          Fehler<-c(Fehler,i)
+        }
+      }
+  }
+
+  if(length(Fehler)==0){
+    rreturn(data.frame(0))
+  }else{
+    Fehler<-Hierarchie_Baum[Fehler,]
+    return(Fehler)
+  }
+
+}
+
+
+
+Hierarchie_Anwendung<-function(Fehler,theObject){
+  if(nrow(Fehler)==1){
+    return(theObject)
+  }else{
+    X<-theObject@X
+    names_X<-X@Dimnames[[2]]
+
+    for(i in 1:nrow(Fehler)){
+      x_A<-which(names_X==Fehler$A[i])
+      x_B<-which(names_X==Fehler$B[i])
+
+      if(length(x_A)>0&length(x_B)>0){
+
+        X[,x_A]<-X[,x_A]+X[,x_B]
+        X <- X[,-x_B]
+
+        names_X<-X@Dimnames[[2]]
+      }
+    }
+  }
+
+  theObject@X<-X
+
+  return(theObject)
+
+}

@@ -1,0 +1,490 @@
+Jahr;Hierarchie ;A ;B ;Label_A ;Label_B 
+2016;1;1;184;HIV/AIDS mit Dauermedikation;HIV/AIDS ohne Dauermedikation
+2016;1;2;6;Sepsis;SIRS
+2016;1;3;4;Aspergillose / Kryptokokkose;Infektionen durch opportunistische Erreger
+2016;1;3;5;Aspergillose / Kryptokokkose;Infektion durch Zytomegalieviren / Kandidose / PML
+2016;1;3;110;Aspergillose / Kryptokokkose;Respiratorische Insuffizienzen, Lunge
+2016;1;3;113;Aspergillose / Kryptokokkose;Sonstige Pneumonien
+2016;1;3;114;Aspergillose / Kryptokokkose;Sonstige Erkrankungen der Pleura
+2016;1;3;117;Aspergillose / Kryptokokkose;Pleuraerguss
+2016;1;4;5;Infektionen durch opportunistische Erreger;Infektion durch Zytomegalieviren / Kandidose / PML
+2016;1;4;110;Infektionen durch opportunistische Erreger;Respiratorische Insuffizienzen, Lunge
+2016;1;4;113;Infektionen durch opportunistische Erreger;Sonstige Pneumonien
+2016;1;4;114;Infektionen durch opportunistische Erreger;Sonstige Erkrankungen der Pleura
+2016;1;4;117;Infektionen durch opportunistische Erreger;Pleuraerguss
+2016;1;5;110;Infektion durch Zytomegalieviren / Kandidose / PML;Respiratorische Insuffizienzen, Lunge
+2016;1;5;113;Infektion durch Zytomegalieviren / Kandidose / PML;Sonstige Pneumonien
+2016;1;5;114;Infektion durch Zytomegalieviren / Kandidose / PML;Sonstige Erkrankungen der Pleura
+2016;1;5;117;Infektion durch Zytomegalieviren / Kandidose / PML;Pleuraerguss
+2016;2;261;262;Chronisch myeloische Leukämie und andere nicht-akute Leukämien mit Tyrosinkinase-Inhibitoren;Akute myeloische Leukämie
+2016;2;261;263;Chronisch myeloische Leukämie und andere nicht-akute Leukämien mit Tyrosinkinase-Inhibitoren;Akute lymphatische Leukämie, Erythroleukämie, Mastzellenleukämie, Multiples Myelom / Plasmozytom
+2016;2;261;264;Chronisch myeloische Leukämie und andere nicht-akute Leukämien mit Tyrosinkinase-Inhibitoren;Chronisch myeloische Leukämie und andere nicht-akute Leukämien ohne Tyrosinkinase-Inhibitoren
+2016;2;261;265;Chronisch myeloische Leukämie und andere nicht-akute Leukämien mit Tyrosinkinase-Inhibitoren;Non-Hodgkin-Lymphom
+2016;2;261;266;Chronisch myeloische Leukämie und andere nicht-akute Leukämien mit Tyrosinkinase-Inhibitoren;Chronisch lymphatische Leukämie, Leukämie durch unspezifizierte Zellen, Chronische myeloproliferative Erkrankungen
+2016;2;261;267;Chronisch myeloische Leukämie und andere nicht-akute Leukämien mit Tyrosinkinase-Inhibitoren;Morbus Hodgkin, Histiozytose, Sonstige Neubildungen unsicheren oder unbekannten Verhaltens des lymphatischen, blutbildenden und verwandten Gewebes
+2016;2;262;263;Akute myeloische Leukämie;Akute lymphatische Leukämie, Erythroleukämie, Mastzellenleukämie, Multiples Myelom / Plasmozytom
+2016;2;262;264;Akute myeloische Leukämie;Chronisch myeloische Leukämie und andere nicht-akute Leukämien ohne Tyrosinkinase-Inhibitoren
+2016;2;262;265;Akute myeloische Leukämie;Non-Hodgkin-Lymphom
+2016;2;262;266;Akute myeloische Leukämie;Chronisch lymphatische Leukämie, Leukämie durch unspezifizierte Zellen, Chronische myeloproliferative Erkrankungen
+2016;2;262;267;Akute myeloische Leukämie;Morbus Hodgkin, Histiozytose, Sonstige Neubildungen unsicheren oder unbekannten Verhaltens des lymphatischen, blutbildenden und verwandten Gewebes
+2016;2;263;264;Akute lymphatische Leukämie, Erythroleukämie, Mastzellenleukämie, Multiples Myelom / Plasmozytom;Chronisch myeloische Leukämie und andere nicht-akute Leukämien ohne Tyrosinkinase-Inhibitoren
+2016;2;263;265;Akute lymphatische Leukämie, Erythroleukämie, Mastzellenleukämie, Multiples Myelom / Plasmozytom;Non-Hodgkin-Lymphom
+2016;2;263;266;Akute lymphatische Leukämie, Erythroleukämie, Mastzellenleukämie, Multiples Myelom / Plasmozytom;Chronisch lymphatische Leukämie, Leukämie durch unspezifizierte Zellen, Chronische myeloproliferative Erkrankungen
+2016;2;263;267;Akute lymphatische Leukämie, Erythroleukämie, Mastzellenleukämie, Multiples Myelom / Plasmozytom;Morbus Hodgkin, Histiozytose, Sonstige Neubildungen unsicheren oder unbekannten Verhaltens des lymphatischen, blutbildenden und verwandten Gewebes
+2016;2;264;265;Chronisch myeloische Leukämie und andere nicht-akute Leukämien ohne Tyrosinkinase-Inhibitoren;Non-Hodgkin-Lymphom
+2016;2;264;266;Chronisch myeloische Leukämie und andere nicht-akute Leukämien ohne Tyrosinkinase-Inhibitoren;Chronisch lymphatische Leukämie, Leukämie durch unspezifizierte Zellen, Chronische myeloproliferative Erkrankungen
+2016;2;264;267;Chronisch myeloische Leukämie und andere nicht-akute Leukämien ohne Tyrosinkinase-Inhibitoren;Morbus Hodgkin, Histiozytose, Sonstige Neubildungen unsicheren oder unbekannten Verhaltens des lymphatischen, blutbildenden und verwandten Gewebes
+2016;2;265;266;Non-Hodgkin-Lymphom;Chronisch lymphatische Leukämie, Leukämie durch unspezifizierte Zellen, Chronische myeloproliferative Erkrankungen
+2016;2;265;267;Non-Hodgkin-Lymphom;Morbus Hodgkin, Histiozytose, Sonstige Neubildungen unsicheren oder unbekannten Verhaltens des lymphatischen, blutbildenden und verwandten Gewebes
+2016;2;266;267;Chronisch lymphatische Leukämie, Leukämie durch unspezifizierte Zellen, Chronische myeloproliferative Erkrankungen;Morbus Hodgkin, Histiozytose, Sonstige Neubildungen unsicheren oder unbekannten Verhaltens des lymphatischen, blutbildenden und verwandten Gewebes
+2016;2;268;269;Lungenmetastasen, Metastasen der Verdauungsorgane, Tumorlyse-Syndrom;Metastasen sonstiger Lokalisation
+2016;2;268;270;Lungenmetastasen, Metastasen der Verdauungsorgane, Tumorlyse-Syndrom;Lymphknotenmetastasen
+2016;2;268;271;Lungenmetastasen, Metastasen der Verdauungsorgane, Tumorlyse-Syndrom;Bösartige Neubildung der Leber, des Pankreas sowie des ZNS
+2016;2;268;272;Lungenmetastasen, Metastasen der Verdauungsorgane, Tumorlyse-Syndrom;Bösartige Neubildung des Ösophagus, Dünndarms, Peritoneums und Retroperitoneums, der Gallenblase, der Gallengänge
+2016;2;268;273;Lungenmetastasen, Metastasen der Verdauungsorgane, Tumorlyse-Syndrom;Bösartige Neubildung des Pharynx, Larynx, der Luftröhre, Bronchien, Lunge, Pleura, des Stütz- und Bindegewebes sowie der Mamma (Alter < 45 Jahre)
+2016;2;268;274;Lungenmetastasen, Metastasen der Verdauungsorgane, Tumorlyse-Syndrom;Bösartige Neubildung des Mundes / der Zunge / des Rektums
+2016;2;268;275;Lungenmetastasen, Metastasen der Verdauungsorgane, Tumorlyse-Syndrom;Bösartige Neubildung des Magens, der Nebennieren, weitere intrathorakale bösartige Neubildungen der Atemwege
+2016;2;268;276;Lungenmetastasen, Metastasen der Verdauungsorgane, Tumorlyse-Syndrom;Bösartige Neubildung der Harnwege, Haut, Zervix, Ovarien und spezifische Neubildungen unklarer Dignität, Kaposi-Sarkom
+2016;2;268;277;Lungenmetastasen, Metastasen der Verdauungsorgane, Tumorlyse-Syndrom;Bösartige Neubildung der Prostata, des Kolons und multipler oder nicht näher bezeichneter Lokalisationen
+2016;2;268;278;Lungenmetastasen, Metastasen der Verdauungsorgane, Tumorlyse-Syndrom;Bösartige Neubildung der Niere, des Auges, der Gebärmutter, der männlichen Geschlechtsorgane sowie ungenau bezeichneter Lokalisation
+2016;2;269;270;Metastasen sonstiger Lokalisation;Lymphknotenmetastasen
+2016;2;269;271;Metastasen sonstiger Lokalisation;Bösartige Neubildung der Leber, des Pankreas sowie des ZNS
+2016;2;269;272;Metastasen sonstiger Lokalisation;Bösartige Neubildung des Ösophagus, Dünndarms, Peritoneums und Retroperitoneums, der Gallenblase, der Gallengänge
+2016;2;269;273;Metastasen sonstiger Lokalisation;Bösartige Neubildung des Pharynx, Larynx, der Luftröhre, Bronchien, Lunge, Pleura, des Stütz- und Bindegewebes sowie der Mamma (Alter < 45 Jahre)
+2016;2;269;274;Metastasen sonstiger Lokalisation;Bösartige Neubildung des Mundes / der Zunge / des Rektums
+2016;2;269;275;Metastasen sonstiger Lokalisation;Bösartige Neubildung des Magens, der Nebennieren, weitere intrathorakale bösartige Neubildungen der Atemwege
+2016;2;269;276;Metastasen sonstiger Lokalisation;Bösartige Neubildung der Harnwege, Haut, Zervix, Ovarien und spezifische Neubildungen unklarer Dignität, Kaposi-Sarkom
+2016;2;269;277;Metastasen sonstiger Lokalisation;Bösartige Neubildung der Prostata, des Kolons und multipler oder nicht näher bezeichneter Lokalisationen
+2016;2;269;278;Metastasen sonstiger Lokalisation;Bösartige Neubildung der Niere, des Auges, der Gebärmutter, der männlichen Geschlechtsorgane sowie ungenau bezeichneter Lokalisation
+2016;2;270;271;Lymphknotenmetastasen;Bösartige Neubildung der Leber, des Pankreas sowie des ZNS
+2016;2;270;272;Lymphknotenmetastasen;Bösartige Neubildung des Ösophagus, Dünndarms, Peritoneums und Retroperitoneums, der Gallenblase, der Gallengänge
+2016;2;270;273;Lymphknotenmetastasen;Bösartige Neubildung des Pharynx, Larynx, der Luftröhre, Bronchien, Lunge, Pleura, des Stütz- und Bindegewebes sowie der Mamma (Alter < 45 Jahre)
+2016;2;270;274;Lymphknotenmetastasen;Bösartige Neubildung des Mundes / der Zunge / des Rektums
+2016;2;270;275;Lymphknotenmetastasen;Bösartige Neubildung des Magens, der Nebennieren, weitere intrathorakale bösartige Neubildungen der Atemwege
+2016;2;270;276;Lymphknotenmetastasen;Bösartige Neubildung der Harnwege, Haut, Zervix, Ovarien und spezifische Neubildungen unklarer Dignität, Kaposi-Sarkom
+2016;2;270;277;Lymphknotenmetastasen;Bösartige Neubildung der Prostata, des Kolons und multipler oder nicht näher bezeichneter Lokalisationen
+2016;2;270;278;Lymphknotenmetastasen;Bösartige Neubildung der Niere, des Auges, der Gebärmutter, der männlichen Geschlechtsorgane sowie ungenau bezeichneter Lokalisation
+2016;2;271;272;Bösartige Neubildung der Leber, des Pankreas sowie des ZNS;Bösartige Neubildung des Ösophagus, Dünndarms, Peritoneums und Retroperitoneums, der Gallenblase, der Gallengänge
+2016;2;271;273;Bösartige Neubildung der Leber, des Pankreas sowie des ZNS;Bösartige Neubildung des Pharynx, Larynx, der Luftröhre, Bronchien, Lunge, Pleura, des Stütz- und Bindegewebes sowie der Mamma (Alter < 45 Jahre)
+2016;2;271;274;Bösartige Neubildung der Leber, des Pankreas sowie des ZNS;Bösartige Neubildung des Mundes / der Zunge / des Rektums
+2016;2;271;275;Bösartige Neubildung der Leber, des Pankreas sowie des ZNS;Bösartige Neubildung des Magens, der Nebennieren, weitere intrathorakale bösartige Neubildungen der Atemwege
+2016;2;271;276;Bösartige Neubildung der Leber, des Pankreas sowie des ZNS;Bösartige Neubildung der Harnwege, Haut, Zervix, Ovarien und spezifische Neubildungen unklarer Dignität, Kaposi-Sarkom
+2016;2;271;277;Bösartige Neubildung der Leber, des Pankreas sowie des ZNS;Bösartige Neubildung der Prostata, des Kolons und multipler oder nicht näher bezeichneter Lokalisationen
+2016;2;271;278;Bösartige Neubildung der Leber, des Pankreas sowie des ZNS;Bösartige Neubildung der Niere, des Auges, der Gebärmutter, der männlichen Geschlechtsorgane sowie ungenau bezeichneter Lokalisation
+2016;2;272;273;Bösartige Neubildung des Ösophagus, Dünndarms, Peritoneums und Retroperitoneums, der Gallenblase, der Gallengänge;Bösartige Neubildung des Pharynx, Larynx, der Luftröhre, Bronchien, Lunge, Pleura, des Stütz- und Bindegewebes sowie der Mamma (Alter < 45 Jahre)
+2016;2;272;274;Bösartige Neubildung des Ösophagus, Dünndarms, Peritoneums und Retroperitoneums, der Gallenblase, der Gallengänge;Bösartige Neubildung des Mundes / der Zunge / des Rektums
+2016;2;272;275;Bösartige Neubildung des Ösophagus, Dünndarms, Peritoneums und Retroperitoneums, der Gallenblase, der Gallengänge;Bösartige Neubildung des Magens, der Nebennieren, weitere intrathorakale bösartige Neubildungen der Atemwege
+2016;2;272;276;Bösartige Neubildung des Ösophagus, Dünndarms, Peritoneums und Retroperitoneums, der Gallenblase, der Gallengänge;Bösartige Neubildung der Harnwege, Haut, Zervix, Ovarien und spezifische Neubildungen unklarer Dignität, Kaposi-Sarkom
+2016;2;272;277;Bösartige Neubildung des Ösophagus, Dünndarms, Peritoneums und Retroperitoneums, der Gallenblase, der Gallengänge;Bösartige Neubildung der Prostata, des Kolons und multipler oder nicht näher bezeichneter Lokalisationen
+2016;2;272;278;Bösartige Neubildung des Ösophagus, Dünndarms, Peritoneums und Retroperitoneums, der Gallenblase, der Gallengänge;Bösartige Neubildung der Niere, des Auges, der Gebärmutter, der männlichen Geschlechtsorgane sowie ungenau bezeichneter Lokalisation
+2016;2;273;274;Bösartige Neubildung des Pharynx, Larynx, der Luftröhre, Bronchien, Lunge, Pleura, des Stütz- und Bindegewebes sowie der Mamma (Alter < 45 Jahre);Bösartige Neubildung des Mundes / der Zunge / des Rektums
+2016;2;273;275;Bösartige Neubildung des Pharynx, Larynx, der Luftröhre, Bronchien, Lunge, Pleura, des Stütz- und Bindegewebes sowie der Mamma (Alter < 45 Jahre);Bösartige Neubildung des Magens, der Nebennieren, weitere intrathorakale bösartige Neubildungen der Atemwege
+2016;2;273;276;Bösartige Neubildung des Pharynx, Larynx, der Luftröhre, Bronchien, Lunge, Pleura, des Stütz- und Bindegewebes sowie der Mamma (Alter < 45 Jahre);Bösartige Neubildung der Harnwege, Haut, Zervix, Ovarien und spezifische Neubildungen unklarer Dignität, Kaposi-Sarkom
+2016;2;273;277;Bösartige Neubildung des Pharynx, Larynx, der Luftröhre, Bronchien, Lunge, Pleura, des Stütz- und Bindegewebes sowie der Mamma (Alter < 45 Jahre);Bösartige Neubildung der Prostata, des Kolons und multipler oder nicht näher bezeichneter Lokalisationen
+2016;2;273;278;Bösartige Neubildung des Pharynx, Larynx, der Luftröhre, Bronchien, Lunge, Pleura, des Stütz- und Bindegewebes sowie der Mamma (Alter < 45 Jahre);Bösartige Neubildung der Niere, des Auges, der Gebärmutter, der männlichen Geschlechtsorgane sowie ungenau bezeichneter Lokalisation
+2016;2;274;275;Bösartige Neubildung des Mundes / der Zunge / des Rektums;Bösartige Neubildung des Magens, der Nebennieren, weitere intrathorakale bösartige Neubildungen der Atemwege
+2016;2;274;276;Bösartige Neubildung des Mundes / der Zunge / des Rektums;Bösartige Neubildung der Harnwege, Haut, Zervix, Ovarien und spezifische Neubildungen unklarer Dignität, Kaposi-Sarkom
+2016;2;274;277;Bösartige Neubildung des Mundes / der Zunge / des Rektums;Bösartige Neubildung der Prostata, des Kolons und multipler oder nicht näher bezeichneter Lokalisationen
+2016;2;274;278;Bösartige Neubildung des Mundes / der Zunge / des Rektums;Bösartige Neubildung der Niere, des Auges, der Gebärmutter, der männlichen Geschlechtsorgane sowie ungenau bezeichneter Lokalisation
+2016;2;275;277;Bösartige Neubildung des Magens, der Nebennieren, weitere intrathorakale bösartige Neubildungen der Atemwege;Bösartige Neubildung der Prostata, des Kolons und multipler oder nicht näher bezeichneter Lokalisationen
+2016;2;275;278;Bösartige Neubildung des Magens, der Nebennieren, weitere intrathorakale bösartige Neubildungen der Atemwege;Bösartige Neubildung der Niere, des Auges, der Gebärmutter, der männlichen Geschlechtsorgane sowie ungenau bezeichneter Lokalisation
+2016;2;276;275;Bösartige Neubildung der Harnwege, Haut, Zervix, Ovarien und spezifische Neubildungen unklarer Dignität, Kaposi-Sarkom;Bösartige Neubildung des Magens, der Nebennieren, weitere intrathorakale bösartige Neubildungen der Atemwege
+2016;2;276;277;Bösartige Neubildung der Harnwege, Haut, Zervix, Ovarien und spezifische Neubildungen unklarer Dignität, Kaposi-Sarkom;Bösartige Neubildung der Prostata, des Kolons und multipler oder nicht näher bezeichneter Lokalisationen
+2016;2;276;278;Bösartige Neubildung der Harnwege, Haut, Zervix, Ovarien und spezifische Neubildungen unklarer Dignität, Kaposi-Sarkom;Bösartige Neubildung der Niere, des Auges, der Gebärmutter, der männlichen Geschlechtsorgane sowie ungenau bezeichneter Lokalisation
+2016;2;277;278;Bösartige Neubildung der Prostata, des Kolons und multipler oder nicht näher bezeichneter Lokalisationen;Bösartige Neubildung der Niere, des Auges, der Gebärmutter, der männlichen Geschlechtsorgane sowie ungenau bezeichneter Lokalisation
+2016;3;15;16;Diabetes mit multiplen Manifestationen oder Ketoazidose, Koma;Diabetes mit Krankheitserscheinungen der Nieren, Nerven, der peripheren Gefäße oder anderen näher bezeichneten Komplikationen
+2016;3;15;17;Diabetes mit multiplen Manifestationen oder Ketoazidose, Koma;Diabetes mit Manifestationen am Auge oder anderen nicht näher bezeichneten Komplikationen
+2016;3;15;19;Diabetes mit multiplen Manifestationen oder Ketoazidose, Koma;Diabetes ohne Komplikationen
+2016;3;16;17;Diabetes mit Krankheitserscheinungen der Nieren, Nerven, der peripheren Gefäße oder anderen näher bezeichneten Komplikationen;Diabetes mit Manifestationen am Auge oder anderen nicht näher bezeichneten Komplikationen
+2016;3;16;19;Diabetes mit Krankheitserscheinungen der Nieren, Nerven, der peripheren Gefäße oder anderen näher bezeichneten Komplikationen;Diabetes ohne Komplikationen
+2016;3;17;19;Diabetes mit Manifestationen am Auge oder anderen nicht näher bezeichneten Komplikationen;Diabetes ohne Komplikationen
+2016;3;18;20;Kinder mit Diabetes mellitus Typ 1 unter 12 Jahre;Insulintherapie
+2016;4;21;22;Phenylketonurie ohne BH4-Responsivität, Morbus Wilson, Gangliosidosen, Störungen des Stoffwechsels der Plasmaproteine;Cushing Syndrom, Amyloidose
+2016;4;21;23;Phenylketonurie ohne BH4-Responsivität, Morbus Wilson, Gangliosidosen, Störungen des Stoffwechsels der Plasmaproteine;Lesch-Nyhan-Syndrom, Erkrankungen der Nebenschilddrüse, der Nebennieren, der Hypophyse und des Thymus, polyglanduläre Dysfunktion
+2016;4;21;24;Phenylketonurie ohne BH4-Responsivität, Morbus Wilson, Gangliosidosen, Störungen des Stoffwechsels der Plasmaproteine;Metabolische Störungen nach medizinischen Maßnahmen, angeborene Anomalien endokriner Drüsen
+2016;4;21;251;Phenylketonurie ohne BH4-Responsivität, Morbus Wilson, Gangliosidosen, Störungen des Stoffwechsels der Plasmaproteine;Adipositas
+2016;4;21;283;Phenylketonurie ohne BH4-Responsivität, Morbus Wilson, Gangliosidosen, Störungen des Stoffwechsels der Plasmaproteine;Angeborene metabolische Störungen, Porphyrie, Hämachromatose, andere Störungen des Eisen- oder des Phosphatstoffwechsels
+2016;4;22;23;Cushing Syndrom, Amyloidose;Lesch-Nyhan-Syndrom, Erkrankungen der Nebenschilddrüse, der Nebennieren, der Hypophyse und des Thymus, polyglanduläre Dysfunktion
+2016;4;22;24;Cushing Syndrom, Amyloidose;Metabolische Störungen nach medizinischen Maßnahmen, angeborene Anomalien endokriner Drüsen
+2016;4;22;251;Cushing Syndrom, Amyloidose;Adipositas
+2016;4;22;283;Cushing Syndrom, Amyloidose;Angeborene metabolische Störungen, Porphyrie, Hämachromatose, andere Störungen des Eisen- oder des Phosphatstoffwechsels
+2016;4;23;24;Lesch-Nyhan-Syndrom, Erkrankungen der Nebenschilddrüse, der Nebennieren, der Hypophyse und des Thymus, polyglanduläre Dysfunktion;Metabolische Störungen nach medizinischen Maßnahmen, angeborene Anomalien endokriner Drüsen
+2016;4;23;251;Lesch-Nyhan-Syndrom, Erkrankungen der Nebenschilddrüse, der Nebennieren, der Hypophyse und des Thymus, polyglanduläre Dysfunktion;Adipositas
+2016;4;23;283;Lesch-Nyhan-Syndrom, Erkrankungen der Nebenschilddrüse, der Nebennieren, der Hypophyse und des Thymus, polyglanduläre Dysfunktion;Angeborene metabolische Störungen, Porphyrie, Hämachromatose, andere Störungen des Eisen- oder des Phosphatstoffwechsels
+2016;4;225;21;Hypopituitarismus mit Somatropingabe;Phenylketonurie ohne BH4-Responsivität, Morbus Wilson, Gangliosidosen, Störungen des Stoffwechsels der Plasmaproteine
+2016;4;225;22;Hypopituitarismus mit Somatropingabe;Cushing Syndrom, Amyloidose
+2016;4;225;23;Hypopituitarismus mit Somatropingabe;Lesch-Nyhan-Syndrom, Erkrankungen der Nebenschilddrüse, der Nebennieren, der Hypophyse und des Thymus, polyglanduläre Dysfunktion
+2016;4;225;24;Hypopituitarismus mit Somatropingabe;Metabolische Störungen nach medizinischen Maßnahmen, angeborene Anomalien endokriner Drüsen
+2016;4;225;251;Hypopituitarismus mit Somatropingabe;Adipositas
+2016;4;225;283;Hypopituitarismus mit Somatropingabe;Angeborene metabolische Störungen, Porphyrie, Hämachromatose, andere Störungen des Eisen- oder des Phosphatstoffwechsels
+2016;4;225;286;Hypopituitarismus mit Somatropingabe;Sphingolipidosen, Glykogenspeicherkrankheit und sonstige Mukopolysaccharidosen (exkl.Typ I) ohne ERT
+2016;4;250;21;Störungen des Harnstoffzyklus mit Natriumphenylbutyrattherapie, PKU/HPA mit BH4-Responsivität, Tyrosinämie mit Nitisinongabe;Phenylketonurie ohne BH4-Responsivität, Morbus Wilson, Gangliosidosen, Störungen des Stoffwechsels der Plasmaproteine
+2016;4;250;22;Störungen des Harnstoffzyklus mit Natriumphenylbutyrattherapie, PKU/HPA mit BH4-Responsivität, Tyrosinämie mit Nitisinongabe;Cushing Syndrom, Amyloidose
+2016;4;250;23;Störungen des Harnstoffzyklus mit Natriumphenylbutyrattherapie, PKU/HPA mit BH4-Responsivität, Tyrosinämie mit Nitisinongabe;Lesch-Nyhan-Syndrom, Erkrankungen der Nebenschilddrüse, der Nebennieren, der Hypophyse und des Thymus, polyglanduläre Dysfunktion
+2016;4;250;24;Störungen des Harnstoffzyklus mit Natriumphenylbutyrattherapie, PKU/HPA mit BH4-Responsivität, Tyrosinämie mit Nitisinongabe;Metabolische Störungen nach medizinischen Maßnahmen, angeborene Anomalien endokriner Drüsen
+2016;4;250;225;Störungen des Harnstoffzyklus mit Natriumphenylbutyrattherapie, PKU/HPA mit BH4-Responsivität, Tyrosinämie mit Nitisinongabe;Hypopituitarismus mit Somatropingabe
+2016;4;250;251;Störungen des Harnstoffzyklus mit Natriumphenylbutyrattherapie, PKU/HPA mit BH4-Responsivität, Tyrosinämie mit Nitisinongabe;Adipositas
+2016;4;250;283;Störungen des Harnstoffzyklus mit Natriumphenylbutyrattherapie, PKU/HPA mit BH4-Responsivität, Tyrosinämie mit Nitisinongabe;Angeborene metabolische Störungen, Porphyrie, Hämachromatose, andere Störungen des Eisen- oder des Phosphatstoffwechsels
+2016;4;250;286;Störungen des Harnstoffzyklus mit Natriumphenylbutyrattherapie, PKU/HPA mit BH4-Responsivität, Tyrosinämie mit Nitisinongabe;Sphingolipidosen, Glykogenspeicherkrankheit und sonstige Mukopolysaccharidosen (exkl.Typ I) ohne ERT
+2016;4;251;24;Adipositas;Metabolische Störungen nach medizinischen Maßnahmen, angeborene Anomalien endokriner Drüsen
+2016;4;251;283;Adipositas;Angeborene metabolische Störungen, Porphyrie, Hämachromatose, andere Störungen des Eisen- oder des Phosphatstoffwechsels
+2016;4;281;21;Morbus Gaucher mit ERT/SRT, Morbus Niemann Pick mit SRT, Mukopolysaccharidose mit ERT;Phenylketonurie ohne BH4-Responsivität, Morbus Wilson, Gangliosidosen, Störungen des Stoffwechsels der Plasmaproteine
+2016;4;281;22;Morbus Gaucher mit ERT/SRT, Morbus Niemann Pick mit SRT, Mukopolysaccharidose mit ERT;Cushing Syndrom, Amyloidose
+2016;4;281;23;Morbus Gaucher mit ERT/SRT, Morbus Niemann Pick mit SRT, Mukopolysaccharidose mit ERT;Lesch-Nyhan-Syndrom, Erkrankungen der Nebenschilddrüse, der Nebennieren, der Hypophyse und des Thymus, polyglanduläre Dysfunktion
+2016;4;281;24;Morbus Gaucher mit ERT/SRT, Morbus Niemann Pick mit SRT, Mukopolysaccharidose mit ERT;Metabolische Störungen nach medizinischen Maßnahmen, angeborene Anomalien endokriner Drüsen
+2016;4;281;225;Morbus Gaucher mit ERT/SRT, Morbus Niemann Pick mit SRT, Mukopolysaccharidose mit ERT;Hypopituitarismus mit Somatropingabe
+2016;4;281;250;Morbus Gaucher mit ERT/SRT, Morbus Niemann Pick mit SRT, Mukopolysaccharidose mit ERT;Störungen des Harnstoffzyklus mit Natriumphenylbutyrattherapie, PKU/HPA mit BH4-Responsivität, Tyrosinämie mit Nitisinongabe
+2016;4;281;251;Morbus Gaucher mit ERT/SRT, Morbus Niemann Pick mit SRT, Mukopolysaccharidose mit ERT;Adipositas
+2016;4;281;282;Morbus Gaucher mit ERT/SRT, Morbus Niemann Pick mit SRT, Mukopolysaccharidose mit ERT;Morbus Fabry mit ERT
+2016;4;281;283;Morbus Gaucher mit ERT/SRT, Morbus Niemann Pick mit SRT, Mukopolysaccharidose mit ERT;Angeborene metabolische Störungen, Porphyrie, Hämachromatose, andere Störungen des Eisen- oder des Phosphatstoffwechsels
+2016;4;281;286;Morbus Gaucher mit ERT/SRT, Morbus Niemann Pick mit SRT, Mukopolysaccharidose mit ERT;Sphingolipidosen, Glykogenspeicherkrankheit und sonstige Mukopolysaccharidosen (exkl.Typ I) ohne ERT
+2016;4;282;21;Morbus Fabry mit ERT;Phenylketonurie ohne BH4-Responsivität, Morbus Wilson, Gangliosidosen, Störungen des Stoffwechsels der Plasmaproteine
+2016;4;282;22;Morbus Fabry mit ERT;Cushing Syndrom, Amyloidose
+2016;4;282;23;Morbus Fabry mit ERT;Lesch-Nyhan-Syndrom, Erkrankungen der Nebenschilddrüse, der Nebennieren, der Hypophyse und des Thymus, polyglanduläre Dysfunktion
+2016;4;282;24;Morbus Fabry mit ERT;Metabolische Störungen nach medizinischen Maßnahmen, angeborene Anomalien endokriner Drüsen
+2016;4;282;225;Morbus Fabry mit ERT;Hypopituitarismus mit Somatropingabe
+2016;4;282;250;Morbus Fabry mit ERT;Störungen des Harnstoffzyklus mit Natriumphenylbutyrattherapie, PKU/HPA mit BH4-Responsivität, Tyrosinämie mit Nitisinongabe
+2016;4;282;251;Morbus Fabry mit ERT;Adipositas
+2016;4;282;283;Morbus Fabry mit ERT;Angeborene metabolische Störungen, Porphyrie, Hämachromatose, andere Störungen des Eisen- oder des Phosphatstoffwechsels
+2016;4;282;286;Morbus Fabry mit ERT;Sphingolipidosen, Glykogenspeicherkrankheit und sonstige Mukopolysaccharidosen (exkl.Typ I) ohne ERT
+2016;4;283;24;Angeborene metabolische Störungen, Porphyrie, Hämachromatose, andere Störungen des Eisen- oder des Phosphatstoffwechsels;Metabolische Störungen nach medizinischen Maßnahmen, angeborene Anomalien endokriner Drüsen
+2016;4;284;21;Morbus Pompe;Phenylketonurie ohne BH4-Responsivität, Morbus Wilson, Gangliosidosen, Störungen des Stoffwechsels der Plasmaproteine
+2016;4;284;22;Morbus Pompe;Cushing Syndrom, Amyloidose
+2016;4;284;23;Morbus Pompe;Lesch-Nyhan-Syndrom, Erkrankungen der Nebenschilddrüse, der Nebennieren, der Hypophyse und des Thymus, polyglanduläre Dysfunktion
+2016;4;284;24;Morbus Pompe;Metabolische Störungen nach medizinischen Maßnahmen, angeborene Anomalien endokriner Drüsen
+2016;4;284;225;Morbus Pompe;Hypopituitarismus mit Somatropingabe
+2016;4;284;250;Morbus Pompe;Störungen des Harnstoffzyklus mit Natriumphenylbutyrattherapie, PKU/HPA mit BH4-Responsivität, Tyrosinämie mit Nitisinongabe
+2016;4;284;251;Morbus Pompe;Adipositas
+2016;4;284;281;Morbus Pompe;Morbus Gaucher mit ERT/SRT, Morbus Niemann Pick mit SRT, Mukopolysaccharidose mit ERT
+2016;4;284;282;Morbus Pompe;Morbus Fabry mit ERT
+2016;4;284;283;Morbus Pompe;Angeborene metabolische Störungen, Porphyrie, Hämachromatose, andere Störungen des Eisen- oder des Phosphatstoffwechsels
+2016;4;284;286;Morbus Pompe;Sphingolipidosen, Glykogenspeicherkrankheit und sonstige Mukopolysaccharidosen (exkl.Typ I) ohne ERT
+2016;4;285;21;Mukopolysaccharidose Typ II + VI mit ERT;Phenylketonurie ohne BH4-Responsivität, Morbus Wilson, Gangliosidosen, Störungen des Stoffwechsels der Plasmaproteine
+2016;4;285;22;Mukopolysaccharidose Typ II + VI mit ERT;Cushing Syndrom, Amyloidose
+2016;4;285;23;Mukopolysaccharidose Typ II + VI mit ERT;Lesch-Nyhan-Syndrom, Erkrankungen der Nebenschilddrüse, der Nebennieren, der Hypophyse und des Thymus, polyglanduläre Dysfunktion
+2016;4;285;24;Mukopolysaccharidose Typ II + VI mit ERT;Metabolische Störungen nach medizinischen Maßnahmen, angeborene Anomalien endokriner Drüsen
+2016;4;285;225;Mukopolysaccharidose Typ II + VI mit ERT;Hypopituitarismus mit Somatropingabe
+2016;4;285;250;Mukopolysaccharidose Typ II + VI mit ERT;Störungen des Harnstoffzyklus mit Natriumphenylbutyrattherapie, PKU/HPA mit BH4-Responsivität, Tyrosinämie mit Nitisinongabe
+2016;4;285;251;Mukopolysaccharidose Typ II + VI mit ERT;Adipositas
+2016;4;285;281;Mukopolysaccharidose Typ II + VI mit ERT;Morbus Gaucher mit ERT/SRT, Morbus Niemann Pick mit SRT, Mukopolysaccharidose mit ERT
+2016;4;285;282;Mukopolysaccharidose Typ II + VI mit ERT;Morbus Fabry mit ERT
+2016;4;285;283;Mukopolysaccharidose Typ II + VI mit ERT;Angeborene metabolische Störungen, Porphyrie, Hämachromatose, andere Störungen des Eisen- oder des Phosphatstoffwechsels
+2016;4;285;284;Mukopolysaccharidose Typ II + VI mit ERT;Morbus Pompe
+2016;4;285;286;Mukopolysaccharidose Typ II + VI mit ERT;Sphingolipidosen, Glykogenspeicherkrankheit und sonstige Mukopolysaccharidosen (exkl.Typ I) ohne ERT
+2016;4;286;21;Sphingolipidosen, Glykogenspeicherkrankheit und sonstige Mukopolysaccharidosen (exkl.Typ I) ohne ERT;Phenylketonurie ohne BH4-Responsivität, Morbus Wilson, Gangliosidosen, Störungen des Stoffwechsels der Plasmaproteine
+2016;4;286;22;Sphingolipidosen, Glykogenspeicherkrankheit und sonstige Mukopolysaccharidosen (exkl.Typ I) ohne ERT;Cushing Syndrom, Amyloidose
+2016;4;286;23;Sphingolipidosen, Glykogenspeicherkrankheit und sonstige Mukopolysaccharidosen (exkl.Typ I) ohne ERT;Lesch-Nyhan-Syndrom, Erkrankungen der Nebenschilddrüse, der Nebennieren, der Hypophyse und des Thymus, polyglanduläre Dysfunktion
+2016;4;286;24;Sphingolipidosen, Glykogenspeicherkrankheit und sonstige Mukopolysaccharidosen (exkl.Typ I) ohne ERT;Metabolische Störungen nach medizinischen Maßnahmen, angeborene Anomalien endokriner Drüsen
+2016;4;286;251;Sphingolipidosen, Glykogenspeicherkrankheit und sonstige Mukopolysaccharidosen (exkl.Typ I) ohne ERT;Adipositas
+2016;4;286;283;Sphingolipidosen, Glykogenspeicherkrankheit und sonstige Mukopolysaccharidosen (exkl.Typ I) ohne ERT;Angeborene metabolische Störungen, Porphyrie, Hämachromatose, andere Störungen des Eisen- oder des Phosphatstoffwechsels
+2016;5;25;26;Schwere chronische Lebererkrankung mit Dauermedikation;Leberzirrhose
+2016;5;25;27;Schwere chronische Lebererkrankung mit Dauermedikation;Chronische Virushepatitis ohne Dauermedikation
+2016;5;25;28;Schwere chronische Lebererkrankung mit Dauermedikation;Ösophagusvarizen
+2016;5;25;30;Schwere chronische Lebererkrankung mit Dauermedikation;Schwere chronische Lebererkrankung ohne Dauermedikation
+2016;5;25;289;Schwere chronische Lebererkrankung mit Dauermedikation;Chronische Hepatitis (nicht durch Viren bedingt), sonstige sekundäre Lebererkrankung
+2016;5;26;289;Leberzirrhose;Chronische Hepatitis (nicht durch Viren bedingt), sonstige sekundäre Lebererkrankung
+2016;5;27;26;Chronische Virushepatitis ohne Dauermedikation;Leberzirrhose
+2016;5;27;289;Chronische Virushepatitis ohne Dauermedikation;Chronische Hepatitis (nicht durch Viren bedingt), sonstige sekundäre Lebererkrankung
+2016;5;28;26;Ösophagusvarizen;Leberzirrhose
+2016;5;28;27;Ösophagusvarizen;Chronische Virushepatitis ohne Dauermedikation
+2016;5;28;289;Ösophagusvarizen;Chronische Hepatitis (nicht durch Viren bedingt), sonstige sekundäre Lebererkrankung
+2016;5;30;26;Schwere chronische Lebererkrankung ohne Dauermedikation;Leberzirrhose
+2016;5;30;27;Schwere chronische Lebererkrankung ohne Dauermedikation;Chronische Virushepatitis ohne Dauermedikation
+2016;5;30;28;Schwere chronische Lebererkrankung ohne Dauermedikation;Ösophagusvarizen
+2016;5;30;289;Schwere chronische Lebererkrankung ohne Dauermedikation;Chronische Hepatitis (nicht durch Viren bedingt), sonstige sekundäre Lebererkrankung
+2016;5;288;26;Chronische Virushepatitis mit Dauermedikation;Leberzirrhose
+2016;5;288;27;Chronische Virushepatitis mit Dauermedikation;Chronische Virushepatitis ohne Dauermedikation
+2016;5;288;289;Chronische Virushepatitis mit Dauermedikation;Chronische Hepatitis (nicht durch Viren bedingt), sonstige sekundäre Lebererkrankung
+2016;6;31;32;Ileus;Postoperativer Darmverschluss
+2016;6;34;31;Sonstige Komplikationen am Verdauungstrakt nach medizinischen Maßnahmen;Ileus
+2016;6;34;32;Sonstige Komplikationen am Verdauungstrakt nach medizinischen Maßnahmen;Postoperativer Darmverschluss
+2016;6;34;33;Sonstige Komplikationen am Verdauungstrakt nach medizinischen Maßnahmen;Chronisch entzündliche Darmerkrankungen ohne Dauermedikation / Strahlenproktitis / Strahlenkolitis
+2016;6;34;61;Sonstige Komplikationen am Verdauungstrakt nach medizinischen Maßnahmen;Schwere gastrointestinale Blutungen ohne peptisches Ulkus
+2016;6;34;62;Sonstige Komplikationen am Verdauungstrakt nach medizinischen Maßnahmen;Ulkuskrankheit mit Blutung / Divertikelkrankheit mit Blutung / Meläna / Gastrointestinale Blutung, nicht näher bezeichnet
+2016;6;34;63;Sonstige Komplikationen am Verdauungstrakt nach medizinischen Maßnahmen;Peritonitis / Ulkuskrankheit mit Perforation / Divertikelkrankheit mit Perforation
+2016;6;34;65;Sonstige Komplikationen am Verdauungstrakt nach medizinischen Maßnahmen;Ulkuskrankheit ohne Blutung / ohne Perforation
+2016;6;34;290;Sonstige Komplikationen am Verdauungstrakt nach medizinischen Maßnahmen;Chronisch entzündliche Darmerkrankungen mit Dauermedikation
+2016;6;61;62;Schwere gastrointestinale Blutungen ohne peptisches Ulkus;Ulkuskrankheit mit Blutung / Divertikelkrankheit mit Blutung / Meläna / Gastrointestinale Blutung, nicht näher bezeichnet
+2016;6;61;63;Schwere gastrointestinale Blutungen ohne peptisches Ulkus;Peritonitis / Ulkuskrankheit mit Perforation / Divertikelkrankheit mit Perforation
+2016;6;61;65;Schwere gastrointestinale Blutungen ohne peptisches Ulkus;Ulkuskrankheit ohne Blutung / ohne Perforation
+2016;6;62;65;Ulkuskrankheit mit Blutung / Divertikelkrankheit mit Blutung / Meläna / Gastrointestinale Blutung, nicht näher bezeichnet;Ulkuskrankheit ohne Blutung / ohne Perforation
+2016;6;63;62;Peritonitis / Ulkuskrankheit mit Perforation / Divertikelkrankheit mit Perforation;Ulkuskrankheit mit Blutung / Divertikelkrankheit mit Blutung / Meläna / Gastrointestinale Blutung, nicht näher bezeichnet
+2016;6;63;65;Peritonitis / Ulkuskrankheit mit Perforation / Divertikelkrankheit mit Perforation;Ulkuskrankheit ohne Blutung / ohne Perforation
+2016;6;290;33;Chronisch entzündliche Darmerkrankungen mit Dauermedikation;Chronisch entzündliche Darmerkrankungen ohne Dauermedikation / Strahlenproktitis / Strahlenkolitis
+2016;7;40;42;Osteoarthritis der Hüfte oder des Knies;Sonstige iatrogene Erkrankungen des Bewegungssystems
+2016;7;41;40;Mechanische Komplikationen durch orthopädische Implantate;Osteoarthritis der Hüfte oder des Knies
+2016;7;41;42;Mechanische Komplikationen durch orthopädische Implantate;Sonstige iatrogene Erkrankungen des Bewegungssystems
+2016;7;198;199;Juvenile Arthritis mit Dauermedikation;Morbus Behcet, entzündliche Wirbelkörpererkrankungen, Arthritis psoriatica, chronische Polyarthritis mit Organbeteiligung mit Dauermedikation
+2016;7;198;200;Juvenile Arthritis mit Dauermedikation;Sonstige systemische rheumatoide Erkrankungen mit Dauermedikation
+2016;7;198;226;Juvenile Arthritis mit Dauermedikation;Juvenile Arthritis
+2016;7;198;227;Juvenile Arthritis mit Dauermedikation;Morbus Behcet, entzündliche Wirbelkörpererkrankungen, Arthritis psoriatica, chronische Polyarthritis mit Organbeteiligung
+2016;7;198;228;Juvenile Arthritis mit Dauermedikation;Sonstige systemische rheumatoide Erkrankungen
+2016;7;199;200;Morbus Behcet, entzündliche Wirbelkörpererkrankungen, Arthritis psoriatica, chronische Polyarthritis mit Organbeteiligung mit Dauermedikation;Sonstige systemische rheumatoide Erkrankungen mit Dauermedikation
+2016;7;199;226;Morbus Behcet, entzündliche Wirbelkörpererkrankungen, Arthritis psoriatica, chronische Polyarthritis mit Organbeteiligung mit Dauermedikation;Juvenile Arthritis
+2016;7;199;227;Morbus Behcet, entzündliche Wirbelkörpererkrankungen, Arthritis psoriatica, chronische Polyarthritis mit Organbeteiligung mit Dauermedikation;Morbus Behcet, entzündliche Wirbelkörpererkrankungen, Arthritis psoriatica, chronische Polyarthritis mit Organbeteiligung
+2016;7;199;228;Morbus Behcet, entzündliche Wirbelkörpererkrankungen, Arthritis psoriatica, chronische Polyarthritis mit Organbeteiligung mit Dauermedikation;Sonstige systemische rheumatoide Erkrankungen
+2016;7;200;226;Sonstige systemische rheumatoide Erkrankungen mit Dauermedikation;Juvenile Arthritis
+2016;7;200;227;Sonstige systemische rheumatoide Erkrankungen mit Dauermedikation;Morbus Behcet, entzündliche Wirbelkörpererkrankungen, Arthritis psoriatica, chronische Polyarthritis mit Organbeteiligung
+2016;7;200;228;Sonstige systemische rheumatoide Erkrankungen mit Dauermedikation;Sonstige systemische rheumatoide Erkrankungen
+2016;7;207;208;Infektionen und entzündliche Reaktionen durch orthopädische Implantate;Arzneimittelinduzierte Knochennekrose / infektiöse Knochen- und Gelenkerkrankungen
+2016;7;207;209;Infektionen und entzündliche Reaktionen durch orthopädische Implantate;Andere entzündliche und nekrotisierende Erkrankungen des Bewegungsapparates
+2016;7;208;209;Arzneimittelinduzierte Knochennekrose / infektiöse Knochen- und Gelenkerkrankungen;Andere entzündliche und nekrotisierende Erkrankungen des Bewegungsapparates
+2016;7;221;204;Schwerwiegende Osteoporose bei Frauen;Osteoporose bei Frauen
+2016;7;222;205;Schwerwiegende Osteoporose bei Männern;Osteoporose bei Männern
+2016;7;226;227;Juvenile Arthritis;Morbus Behcet, entzündliche Wirbelkörpererkrankungen, Arthritis psoriatica, chronische Polyarthritis mit Organbeteiligung
+2016;7;226;228;Juvenile Arthritis;Sonstige systemische rheumatoide Erkrankungen
+2016;7;227;228;Morbus Behcet, entzündliche Wirbelkörpererkrankungen, Arthritis psoriatica, chronische Polyarthritis mit Organbeteiligung;Sonstige systemische rheumatoide Erkrankungen
+2016;8;35;36;Hämophilie oder Willebrand-Jürgens-Syndrom mit Dauermedikation;Hämophilie: Männer mit Bedarfsmedikation
+2016;8;35;37;Hämophilie oder Willebrand-Jürgens-Syndrom mit Dauermedikation;Sekundäre Thrombozytopenien und erworbener Mangel an Gerinnungsfaktoren
+2016;8;35;38;Hämophilie oder Willebrand-Jürgens-Syndrom mit Dauermedikation;Willebrand-Jürgens-Syndrom mit Bedarfsmedikation
+2016;8;35;43;Hämophilie oder Willebrand-Jürgens-Syndrom mit Dauermedikation;Hämophilie: Männer ohne Dauer- oder Bedarfsmedikation, Frauen mit Bedarfsmedikation
+2016;8;35;46;Hämophilie oder Willebrand-Jürgens-Syndrom mit Dauermedikation;Hämophilie: Frauen ohne Dauer- oder Bedarfsmedikation, Purpura und sonstige Gerinnungsstörungen
+2016;8;35;48;Hämophilie oder Willebrand-Jürgens-Syndrom mit Dauermedikation;Heparin-induzierte Thrombozytopenie Typ II
+2016;8;36;37;Hämophilie: Männer mit Bedarfsmedikation;Sekundäre Thrombozytopenien und erworbener Mangel an Gerinnungsfaktoren
+2016;8;36;43;Hämophilie: Männer mit Bedarfsmedikation;Hämophilie: Männer ohne Dauer- oder Bedarfsmedikation, Frauen mit Bedarfsmedikation
+2016;8;36;46;Hämophilie: Männer mit Bedarfsmedikation;Hämophilie: Frauen ohne Dauer- oder Bedarfsmedikation, Purpura und sonstige Gerinnungsstörungen
+2016;8;36;48;Hämophilie: Männer mit Bedarfsmedikation;Heparin-induzierte Thrombozytopenie Typ II
+2016;8;37;46;Sekundäre Thrombozytopenien und erworbener Mangel an Gerinnungsfaktoren;Hämophilie: Frauen ohne Dauer- oder Bedarfsmedikation, Purpura und sonstige Gerinnungsstörungen
+2016;8;38;36;Willebrand-Jürgens-Syndrom mit Bedarfsmedikation;Hämophilie: Männer mit Bedarfsmedikation
+2016;8;38;37;Willebrand-Jürgens-Syndrom mit Bedarfsmedikation;Sekundäre Thrombozytopenien und erworbener Mangel an Gerinnungsfaktoren
+2016;8;38;43;Willebrand-Jürgens-Syndrom mit Bedarfsmedikation;Hämophilie: Männer ohne Dauer- oder Bedarfsmedikation, Frauen mit Bedarfsmedikation
+2016;8;38;46;Willebrand-Jürgens-Syndrom mit Bedarfsmedikation;Hämophilie: Frauen ohne Dauer- oder Bedarfsmedikation, Purpura und sonstige Gerinnungsstörungen
+2016;8;38;48;Willebrand-Jürgens-Syndrom mit Bedarfsmedikation;Heparin-induzierte Thrombozytopenie Typ II
+2016;8;43;37;Hämophilie: Männer ohne Dauer- oder Bedarfsmedikation, Frauen mit Bedarfsmedikation;Sekundäre Thrombozytopenien und erworbener Mangel an Gerinnungsfaktoren
+2016;8;43;46;Hämophilie: Männer ohne Dauer- oder Bedarfsmedikation, Frauen mit Bedarfsmedikation;Hämophilie: Frauen ohne Dauer- oder Bedarfsmedikation, Purpura und sonstige Gerinnungsstörungen
+2016;8;43;48;Hämophilie: Männer ohne Dauer- oder Bedarfsmedikation, Frauen mit Bedarfsmedikation;Heparin-induzierte Thrombozytopenie Typ II
+2016;8;44;49;Aplastische Anämien, hämolytisch-urämisches Syndrom;Sideroblastische / Sideroachrestische Anämien, Polycythaemia vera
+2016;8;44;50;Aplastische Anämien, hämolytisch-urämisches Syndrom;Anämien durch akute Blutungen, sonstige refraktäre Anämien und myelodysplastischen Syndrome
+2016;8;45;44;Erworbene hämolytische Anämien, schwerwiegende refraktäre Anämien und myelodysplastischen Syndrome;Aplastische Anämien, hämolytisch-urämisches Syndrom
+2016;8;45;47;Erworbene hämolytische Anämien, schwerwiegende refraktäre Anämien und myelodysplastischen Syndrome;Anämien bei Neubildungen
+2016;8;45;49;Erworbene hämolytische Anämien, schwerwiegende refraktäre Anämien und myelodysplastischen Syndrome;Sideroblastische / Sideroachrestische Anämien, Polycythaemia vera
+2016;8;45;50;Erworbene hämolytische Anämien, schwerwiegende refraktäre Anämien und myelodysplastischen Syndrome;Anämien durch akute Blutungen, sonstige refraktäre Anämien und myelodysplastischen Syndrome
+2016;8;47;44;Anämien bei Neubildungen;Aplastische Anämien, hämolytisch-urämisches Syndrom
+2016;8;47;49;Anämien bei Neubildungen;Sideroblastische / Sideroachrestische Anämien, Polycythaemia vera
+2016;8;47;50;Anämien bei Neubildungen;Anämien durch akute Blutungen, sonstige refraktäre Anämien und myelodysplastischen Syndrome
+2016;8;48;37;Heparin-induzierte Thrombozytopenie Typ II;Sekundäre Thrombozytopenien und erworbener Mangel an Gerinnungsfaktoren
+2016;8;48;46;Heparin-induzierte Thrombozytopenie Typ II;Hämophilie: Frauen ohne Dauer- oder Bedarfsmedikation, Purpura und sonstige Gerinnungsstörungen
+2016;8;50;49;Anämien durch akute Blutungen, sonstige refraktäre Anämien und myelodysplastischen Syndrome;Sideroblastische / Sideroachrestische Anämien, Polycythaemia vera
+2016;9;11;13;Delir (exkl. bei Demenz) und Enzephalopathie;Demenz bei anderen Erkrankungen / Delir bei Demenz
+2016;9;12;13;Degenerative Hirnerkrankungen / Morbus Alzheimer;Demenz bei anderen Erkrankungen / Delir bei Demenz
+2016;10;51;52;Alkohol- oder drogeninduzierte Psychose;Alkohol- oder Drogenabhängigkeit
+2016;10;51;53;Alkohol- oder drogeninduzierte Psychose;Schädlicher Gebrauch von Alkohol / Drogen ohne Abhängigkeitssyndrom
+2016;10;52;53;Alkohol- oder Drogenabhängigkeit;Schädlicher Gebrauch von Alkohol / Drogen ohne Abhängigkeitssyndrom
+2016;11;54;55;Schizophrenie;Näher bezeichnete bipolare affektive Störungen
+2016;11;54;56;Schizophrenie;Psychosen, Wahn
+2016;11;54;57;Schizophrenie;Depressive Episoden und Störungen
+2016;11;54;58;Schizophrenie;Depression, sonstige nicht näher bezeichnete manische und bipolare affektive Störungen
+2016;11;54;231;Schizophrenie;Dysthymie
+2016;11;55;56;Näher bezeichnete bipolare affektive Störungen;Psychosen, Wahn
+2016;11;55;57;Näher bezeichnete bipolare affektive Störungen;Depressive Episoden und Störungen
+2016;11;55;58;Näher bezeichnete bipolare affektive Störungen;Depression, sonstige nicht näher bezeichnete manische und bipolare affektive Störungen
+2016;11;55;231;Näher bezeichnete bipolare affektive Störungen;Dysthymie
+2016;11;56;57;Psychosen, Wahn;Depressive Episoden und Störungen
+2016;11;56;231;Psychosen, Wahn;Dysthymie
+2016;11;58;57;Depression, sonstige nicht näher bezeichnete manische und bipolare affektive Störungen;Depressive Episoden und Störungen
+2016;11;58;231;Depression, sonstige nicht näher bezeichnete manische und bipolare affektive Störungen;Dysthymie
+2016;11;60;57;Anorexia nervosa / Bulimie;Depressive Episoden und Störungen
+2016;11;60;230;Anorexia nervosa / Bulimie;Persönlichkeits- und Verhaltensstörungen, sonstige Essstörungen
+2016;11;60;231;Anorexia nervosa / Bulimie;Dysthymie
+2016;11;230;57;Persönlichkeits- und Verhaltensstörungen, sonstige Essstörungen;Depressive Episoden und Störungen
+2016;11;230;231;Persönlichkeits- und Verhaltensstörungen, sonstige Essstörungen;Dysthymie
+2016;11;231;57;Dysthymie;Depressive Episoden und Störungen
+2016;13;259;39;Vollständige traumatische zervikale Rückenmarksläsion;Spinalkanalstenose
+2016;13;259;100;Vollständige traumatische zervikale Rückenmarksläsion;Hemiplegie / Hemiparese
+2016;13;259;101;Vollständige traumatische zervikale Rückenmarksläsion;Diplegie der oberen Extremitäten, Monoplegie und andere Lähmungen
+2016;13;259;103;Vollständige traumatische zervikale Rückenmarksläsion;Nicht näher spezifizierte Spätfolgen zerebrovaskulärer Erkrankungen
+2016;13;259;155;Vollständige traumatische zervikale Rückenmarksläsion;Verletzungen der Wirbelsäule in mehreren Segmenten
+2016;13;259;156;Vollständige traumatische zervikale Rückenmarksläsion;Andere Wirbelverletzung mit Angabe der Lokalisation
+2016;13;259;157;Vollständige traumatische zervikale Rückenmarksläsion;Andere Verletzungen
+2016;13;259;292;Vollständige traumatische zervikale Rückenmarksläsion;Vollständige thorakale Rückenmarksläsion / Locked-in-Syndrom
+2016;13;259;293;Vollständige traumatische zervikale Rückenmarksläsion;Vollständige Quadriplegie / Inkomplette hohe Rückenmarksläsion / Folgen einer Rückenmarksverletzung / Motoneuronenerkrankungen
+2016;13;259;294;Vollständige traumatische zervikale Rückenmarksläsion;Paraplegie / Inkomplette oder nicht näher bezeichnete Quadriplegie / sonstige Rückenmarksläsion
+2016;13;259;295;Vollständige traumatische zervikale Rückenmarksläsion;Schwerwiegende Myelopathien / angeborene und kindliche Lähmungserscheinungen / postoperative Krankheiten des Nervensystems
+2016;13;259;296;Vollständige traumatische zervikale Rückenmarksläsion;Sonstige Erkrankungen des Rückenmarks
+2016;13;292;39;Vollständige thorakale Rückenmarksläsion / Locked-in-Syndrom;Spinalkanalstenose
+2016;13;292;100;Vollständige thorakale Rückenmarksläsion / Locked-in-Syndrom;Hemiplegie / Hemiparese
+2016;13;292;101;Vollständige thorakale Rückenmarksläsion / Locked-in-Syndrom;Diplegie der oberen Extremitäten, Monoplegie und andere Lähmungen
+2016;13;292;103;Vollständige thorakale Rückenmarksläsion / Locked-in-Syndrom;Nicht näher spezifizierte Spätfolgen zerebrovaskulärer Erkrankungen
+2016;13;292;155;Vollständige thorakale Rückenmarksläsion / Locked-in-Syndrom;Verletzungen der Wirbelsäule in mehreren Segmenten
+2016;13;292;156;Vollständige thorakale Rückenmarksläsion / Locked-in-Syndrom;Andere Wirbelverletzung mit Angabe der Lokalisation
+2016;13;292;157;Vollständige thorakale Rückenmarksläsion / Locked-in-Syndrom;Andere Verletzungen
+2016;13;292;293;Vollständige thorakale Rückenmarksläsion / Locked-in-Syndrom;Vollständige Quadriplegie / Inkomplette hohe Rückenmarksläsion / Folgen einer Rückenmarksverletzung / Motoneuronenerkrankungen
+2016;13;292;294;Vollständige thorakale Rückenmarksläsion / Locked-in-Syndrom;Paraplegie / Inkomplette oder nicht näher bezeichnete Quadriplegie / sonstige Rückenmarksläsion
+2016;13;292;295;Vollständige thorakale Rückenmarksläsion / Locked-in-Syndrom;Schwerwiegende Myelopathien / angeborene und kindliche Lähmungserscheinungen / postoperative Krankheiten des Nervensystems
+2016;13;292;296;Vollständige thorakale Rückenmarksläsion / Locked-in-Syndrom;Sonstige Erkrankungen des Rückenmarks
+2016;13;293;39;Vollständige Quadriplegie / Inkomplette hohe Rückenmarksläsion / Folgen einer Rückenmarksverletzung / Motoneuronenerkrankungen;Spinalkanalstenose
+2016;13;293;100;Vollständige Quadriplegie / Inkomplette hohe Rückenmarksläsion / Folgen einer Rückenmarksverletzung / Motoneuronenerkrankungen;Hemiplegie / Hemiparese
+2016;13;293;101;Vollständige Quadriplegie / Inkomplette hohe Rückenmarksläsion / Folgen einer Rückenmarksverletzung / Motoneuronenerkrankungen;Diplegie der oberen Extremitäten, Monoplegie und andere Lähmungen
+2016;13;293;103;Vollständige Quadriplegie / Inkomplette hohe Rückenmarksläsion / Folgen einer Rückenmarksverletzung / Motoneuronenerkrankungen;Nicht näher spezifizierte Spätfolgen zerebrovaskulärer Erkrankungen
+2016;13;293;155;Vollständige Quadriplegie / Inkomplette hohe Rückenmarksläsion / Folgen einer Rückenmarksverletzung / Motoneuronenerkrankungen;Verletzungen der Wirbelsäule in mehreren Segmenten
+2016;13;293;156;Vollständige Quadriplegie / Inkomplette hohe Rückenmarksläsion / Folgen einer Rückenmarksverletzung / Motoneuronenerkrankungen;Andere Wirbelverletzung mit Angabe der Lokalisation
+2016;13;293;157;Vollständige Quadriplegie / Inkomplette hohe Rückenmarksläsion / Folgen einer Rückenmarksverletzung / Motoneuronenerkrankungen;Andere Verletzungen
+2016;13;293;294;Vollständige Quadriplegie / Inkomplette hohe Rückenmarksläsion / Folgen einer Rückenmarksverletzung / Motoneuronenerkrankungen;Paraplegie / Inkomplette oder nicht näher bezeichnete Quadriplegie / sonstige Rückenmarksläsion
+2016;13;293;295;Vollständige Quadriplegie / Inkomplette hohe Rückenmarksläsion / Folgen einer Rückenmarksverletzung / Motoneuronenerkrankungen;Schwerwiegende Myelopathien / angeborene und kindliche Lähmungserscheinungen / postoperative Krankheiten des Nervensystems
+2016;13;293;296;Vollständige Quadriplegie / Inkomplette hohe Rückenmarksläsion / Folgen einer Rückenmarksverletzung / Motoneuronenerkrankungen;Sonstige Erkrankungen des Rückenmarks
+2016;13;294;39;Paraplegie / Inkomplette oder nicht näher bezeichnete Quadriplegie / sonstige Rückenmarksläsion;Spinalkanalstenose
+2016;13;294;100;Paraplegie / Inkomplette oder nicht näher bezeichnete Quadriplegie / sonstige Rückenmarksläsion;Hemiplegie / Hemiparese
+2016;13;294;101;Paraplegie / Inkomplette oder nicht näher bezeichnete Quadriplegie / sonstige Rückenmarksläsion;Diplegie der oberen Extremitäten, Monoplegie und andere Lähmungen
+2016;13;294;103;Paraplegie / Inkomplette oder nicht näher bezeichnete Quadriplegie / sonstige Rückenmarksläsion;Nicht näher spezifizierte Spätfolgen zerebrovaskulärer Erkrankungen
+2016;13;294;155;Paraplegie / Inkomplette oder nicht näher bezeichnete Quadriplegie / sonstige Rückenmarksläsion;Verletzungen der Wirbelsäule in mehreren Segmenten
+2016;13;294;156;Paraplegie / Inkomplette oder nicht näher bezeichnete Quadriplegie / sonstige Rückenmarksläsion;Andere Wirbelverletzung mit Angabe der Lokalisation
+2016;13;294;157;Paraplegie / Inkomplette oder nicht näher bezeichnete Quadriplegie / sonstige Rückenmarksläsion;Andere Verletzungen
+2016;13;294;295;Paraplegie / Inkomplette oder nicht näher bezeichnete Quadriplegie / sonstige Rückenmarksläsion;Schwerwiegende Myelopathien / angeborene und kindliche Lähmungserscheinungen / postoperative Krankheiten des Nervensystems
+2016;13;294;296;Paraplegie / Inkomplette oder nicht näher bezeichnete Quadriplegie / sonstige Rückenmarksläsion;Sonstige Erkrankungen des Rückenmarks
+2016;13;295;39;Schwerwiegende Myelopathien / angeborene und kindliche Lähmungserscheinungen / postoperative Krankheiten des Nervensystems;Spinalkanalstenose
+2016;13;295;100;Schwerwiegende Myelopathien / angeborene und kindliche Lähmungserscheinungen / postoperative Krankheiten des Nervensystems;Hemiplegie / Hemiparese
+2016;13;295;101;Schwerwiegende Myelopathien / angeborene und kindliche Lähmungserscheinungen / postoperative Krankheiten des Nervensystems;Diplegie der oberen Extremitäten, Monoplegie und andere Lähmungen
+2016;13;295;103;Schwerwiegende Myelopathien / angeborene und kindliche Lähmungserscheinungen / postoperative Krankheiten des Nervensystems;Nicht näher spezifizierte Spätfolgen zerebrovaskulärer Erkrankungen
+2016;13;295;296;Schwerwiegende Myelopathien / angeborene und kindliche Lähmungserscheinungen / postoperative Krankheiten des Nervensystems;Sonstige Erkrankungen des Rückenmarks
+2016;13;296;39;Sonstige Erkrankungen des Rückenmarks;Spinalkanalstenose
+2016;14;75;11;Hirnödem / hypoxische Hirnschäden;Delir (exkl. bei Demenz) und Enzephalopathie
+2016;14;75;13;Hirnödem / hypoxische Hirnschäden;Demenz bei anderen Erkrankungen / Delir bei Demenz
+2016;14;75;258;Hirnödem / hypoxische Hirnschäden;Schlafapnoe, Narkolepsie und Kataplexie
+2016;14;75;298;Hirnödem / hypoxische Hirnschäden;Hydrozephalus und sonstige Schädigungen des Gehirns
+2016;14;234;72;Multiple Sklerose mit Dauermedikation;Multiple Sklerose ohne Dauermedikation
+2016;14;235;73;Morbus Parkinson mit Dauermedikation;Morbus Parkinson ohne Dauermedikation und Chorea Huntington
+2016;14;297;11;Apallisches Syndrom;Delir (exkl. bei Demenz) und Enzephalopathie
+2016;14;297;13;Apallisches Syndrom;Demenz bei anderen Erkrankungen / Delir bei Demenz
+2016;14;297;75;Apallisches Syndrom;Hirnödem / hypoxische Hirnschäden
+2016;14;297;258;Apallisches Syndrom;Schlafapnoe, Narkolepsie und Kataplexie
+2016;14;297;298;Apallisches Syndrom;Hydrozephalus und sonstige Schädigungen des Gehirns
+2016;14;298;11;Hydrozephalus und sonstige Schädigungen des Gehirns;Delir (exkl. bei Demenz) und Enzephalopathie
+2016;14;298;13;Hydrozephalus und sonstige Schädigungen des Gehirns;Demenz bei anderen Erkrankungen / Delir bei Demenz
+2016;14;298;258;Hydrozephalus und sonstige Schädigungen des Gehirns;Schlafapnoe, Narkolepsie und Kataplexie
+2016;14;299;74;Status epilepticus;Epilepsie
+2016;16;77;79;Paroxysmale ventrikuläre Tachykardie;Herzstillstand / Schock
+2016;16;77;91;Paroxysmale ventrikuläre Tachykardie;Hypertonie, hypertensive Erkrankungen und andere nicht näher bezeichnete Herzerkrankungen
+2016;16;77;92;Paroxysmale ventrikuläre Tachykardie;Näher bezeichnete Arrhythmien
+2016;16;78;80;Pulmonale Herzkrankheit;Herzinsuffizienz
+2016;16;78;91;Pulmonale Herzkrankheit;Hypertonie, hypertensive Erkrankungen und andere nicht näher bezeichnete Herzerkrankungen
+2016;16;79;91;Herzstillstand / Schock;Hypertonie, hypertensive Erkrankungen und andere nicht näher bezeichnete Herzerkrankungen
+2016;16;79;92;Herzstillstand / Schock;Näher bezeichnete Arrhythmien
+2016;16;80;91;Herzinsuffizienz;Hypertonie, hypertensive Erkrankungen und andere nicht näher bezeichnete Herzerkrankungen
+2016;16;81;83;Akuter Myokardinfarkt / instabile Angina pectoris und andere akute ischämische Herzkrankheiten;Angina pectoris / Z. n. altem Myokardinfarkt
+2016;16;81;84;Akuter Myokardinfarkt / instabile Angina pectoris und andere akute ischämische Herzkrankheiten;Koronare Herzkrankheit / andere chronisch-ischämische Erkrankungen des Herzens
+2016;16;81;91;Akuter Myokardinfarkt / instabile Angina pectoris und andere akute ischämische Herzkrankheiten;Hypertonie, hypertensive Erkrankungen und andere nicht näher bezeichnete Herzerkrankungen
+2016;16;83;84;Angina pectoris / Z. n. altem Myokardinfarkt;Koronare Herzkrankheit / andere chronisch-ischämische Erkrankungen des Herzens
+2016;16;83;91;Angina pectoris / Z. n. altem Myokardinfarkt;Hypertonie, hypertensive Erkrankungen und andere nicht näher bezeichnete Herzerkrankungen
+2016;16;84;91;Koronare Herzkrankheit / andere chronisch-ischämische Erkrankungen des Herzens;Hypertonie, hypertensive Erkrankungen und andere nicht näher bezeichnete Herzerkrankungen
+2016;16;86;91;Erworbene Erkrankungen der Herzklappen und rheumatische Herzerkrankungen;Hypertonie, hypertensive Erkrankungen und andere nicht näher bezeichnete Herzerkrankungen
+2016;16;87;86;Atresie der A. pulmonalis (Alter < 18 Jahre)/ Elektiv offen belassenes Sternum;Erworbene Erkrankungen der Herzklappen und rheumatische Herzerkrankungen
+2016;16;87;88;Atresie der A. pulmonalis (Alter < 18 Jahre)/ Elektiv offen belassenes Sternum;Andere angeborene Herzfehler
+2016;16;87;91;Atresie der A. pulmonalis (Alter < 18 Jahre)/ Elektiv offen belassenes Sternum;Hypertonie, hypertensive Erkrankungen und andere nicht näher bezeichnete Herzerkrankungen
+2016;16;87;300;Atresie der A. pulmonalis (Alter < 18 Jahre)/ Elektiv offen belassenes Sternum;Sonstige angeborene Herzfehler
+2016;16;87;301;Atresie der A. pulmonalis (Alter < 18 Jahre)/ Elektiv offen belassenes Sternum;Schwere angeborene Herzfehler
+2016;16;88;86;Andere angeborene Herzfehler;Erworbene Erkrankungen der Herzklappen und rheumatische Herzerkrankungen
+2016;16;88;91;Andere angeborene Herzfehler;Hypertonie, hypertensive Erkrankungen und andere nicht näher bezeichnete Herzerkrankungen
+2016;16;88;300;Andere angeborene Herzfehler;Sonstige angeborene Herzfehler
+2016;16;92;91;Näher bezeichnete Arrhythmien;Hypertonie, hypertensive Erkrankungen und andere nicht näher bezeichnete Herzerkrankungen
+2016;16;300;86;Sonstige angeborene Herzfehler;Erworbene Erkrankungen der Herzklappen und rheumatische Herzerkrankungen
+2016;16;300;91;Sonstige angeborene Herzfehler;Hypertonie, hypertensive Erkrankungen und andere nicht näher bezeichnete Herzerkrankungen
+2016;16;301;86;Schwere angeborene Herzfehler;Erworbene Erkrankungen der Herzklappen und rheumatische Herzerkrankungen
+2016;16;301;88;Schwere angeborene Herzfehler;Andere angeborene Herzfehler
+2016;16;301;91;Schwere angeborene Herzfehler;Hypertonie, hypertensive Erkrankungen und andere nicht näher bezeichnete Herzerkrankungen
+2016;16;301;300;Schwere angeborene Herzfehler;Sonstige angeborene Herzfehler
+2016;17;95;96;Zerebrale Blutung;Zerebrale Ischämie oder nicht näher bezeicheter Schlaganfall
+2016;17;100;101;Hemiplegie / Hemiparese;Diplegie der oberen Extremitäten, Monoplegie und andere Lähmungen
+2016;17;100;103;Hemiplegie / Hemiparese;Nicht näher spezifizierte Spätfolgen zerebrovaskulärer Erkrankungen
+2016;17;101;103;Diplegie der oberen Extremitäten, Monoplegie und andere Lähmungen;Nicht näher spezifizierte Spätfolgen zerebrovaskulärer Erkrankungen
+2016;18;98;99;Atherosklerose der Extremitätengefäße mit Gangrän;Sonstige Erkrankungen des Gefäßsystems und der Arterien
+2016;18;98;104;Atherosklerose der Extremitätengefäße mit Gangrän;Atherosklerose der Extremitätengefäße mit Ulkus, Fehlbildungen peripherer und sonstiger Gefäße
+2016;18;98;105;Atherosklerose der Extremitätengefäße mit Gangrän;Erkrankungen der Lungengefäße / Erkrankungen peripherer Gefäße
+2016;18;98;106;Atherosklerose der Extremitätengefäße mit Gangrän;Sonstige Atherosklerose
+2016;18;98;115;Atherosklerose der Extremitätengefäße mit Gangrän;Atherosklerose der Extremitätengefäße
+2016;18;98;149;Atherosklerose der Extremitätengefäße mit Gangrän;Hautulkus (ohne Dekubitalulzera)
+2016;18;99;106;Sonstige Erkrankungen des Gefäßsystems und der Arterien;Sonstige Atherosklerose
+2016;18;104;99;Atherosklerose der Extremitätengefäße mit Ulkus, Fehlbildungen peripherer und sonstiger Gefäße;Sonstige Erkrankungen des Gefäßsystems und der Arterien
+2016;18;104;105;Atherosklerose der Extremitätengefäße mit Ulkus, Fehlbildungen peripherer und sonstiger Gefäße;Erkrankungen der Lungengefäße / Erkrankungen peripherer Gefäße
+2016;18;104;106;Atherosklerose der Extremitätengefäße mit Ulkus, Fehlbildungen peripherer und sonstiger Gefäße;Sonstige Atherosklerose
+2016;18;104;115;Atherosklerose der Extremitätengefäße mit Ulkus, Fehlbildungen peripherer und sonstiger Gefäße;Atherosklerose der Extremitätengefäße
+2016;18;104;149;Atherosklerose der Extremitätengefäße mit Ulkus, Fehlbildungen peripherer und sonstiger Gefäße;Hautulkus (ohne Dekubitalulzera)
+2016;18;105;99;Erkrankungen der Lungengefäße / Erkrankungen peripherer Gefäße;Sonstige Erkrankungen des Gefäßsystems und der Arterien
+2016;18;105;106;Erkrankungen der Lungengefäße / Erkrankungen peripherer Gefäße;Sonstige Atherosklerose
+2016;18;115;99;Atherosklerose der Extremitätengefäße;Sonstige Erkrankungen des Gefäßsystems und der Arterien
+2016;18;115;105;Atherosklerose der Extremitätengefäße;Erkrankungen der Lungengefäße / Erkrankungen peripherer Gefäße
+2016;18;115;106;Atherosklerose der Extremitätengefäße;Sonstige Atherosklerose
+2016;19;108;114;Sonstige interstitielle Lungenkrankheiten mit Dauermedikation;Sonstige Erkrankungen der Pleura
+2016;19;108;215;Sonstige interstitielle Lungenkrankheiten mit Dauermedikation;COPD oder Emphysem mit Dauermedikation, Bronchiektasen, sonstige interstitielle Lungenkrankheiten ohne Dauermedikation
+2016;19;108;237;Sonstige interstitielle Lungenkrankheiten mit Dauermedikation;COPD oder Emphysem ohne Dauermedikation
+2016;19;110;113;Respiratorische Insuffizienzen, Lunge;Sonstige Pneumonien
+2016;19;110;114;Respiratorische Insuffizienzen, Lunge;Sonstige Erkrankungen der Pleura
+2016;19;110;117;Respiratorische Insuffizienzen, Lunge;Pleuraerguss
+2016;19;111;110;Näher bezeichnete bakterielle Pneumonien;Respiratorische Insuffizienzen, Lunge
+2016;19;111;113;Näher bezeichnete bakterielle Pneumonien;Sonstige Pneumonien
+2016;19;111;114;Näher bezeichnete bakterielle Pneumonien;Sonstige Erkrankungen der Pleura
+2016;19;111;117;Näher bezeichnete bakterielle Pneumonien;Pleuraerguss
+2016;19;111;216;Näher bezeichnete bakterielle Pneumonien;Chronische respiratorische Insuffizienz, spezielle Pneumonien
+2016;19;113;114;Sonstige Pneumonien;Sonstige Erkrankungen der Pleura
+2016;19;117;113;Pleuraerguss;Sonstige Pneumonien
+2016;19;117;114;Pleuraerguss;Sonstige Erkrankungen der Pleura
+2016;19;215;114;COPD oder Emphysem mit Dauermedikation, Bronchiektasen, sonstige interstitielle Lungenkrankheiten ohne Dauermedikation;Sonstige Erkrankungen der Pleura
+2016;19;215;237;COPD oder Emphysem mit Dauermedikation, Bronchiektasen, sonstige interstitielle Lungenkrankheiten ohne Dauermedikation;COPD oder Emphysem ohne Dauermedikation
+2016;19;216;110;Chronische respiratorische Insuffizienz, spezielle Pneumonien;Respiratorische Insuffizienzen, Lunge
+2016;19;216;113;Chronische respiratorische Insuffizienz, spezielle Pneumonien;Sonstige Pneumonien
+2016;19;216;114;Chronische respiratorische Insuffizienz, spezielle Pneumonien;Sonstige Erkrankungen der Pleura
+2016;19;216;117;Chronische respiratorische Insuffizienz, spezielle Pneumonien;Pleuraerguss
+2016;19;217;108;Mukoviszidose (Alter > 11 Jahre);Sonstige interstitielle Lungenkrankheiten mit Dauermedikation
+2016;19;217;114;Mukoviszidose (Alter > 11 Jahre);Sonstige Erkrankungen der Pleura
+2016;19;217;215;Mukoviszidose (Alter > 11 Jahre);COPD oder Emphysem mit Dauermedikation, Bronchiektasen, sonstige interstitielle Lungenkrankheiten ohne Dauermedikation
+2016;19;217;237;Mukoviszidose (Alter > 11 Jahre);COPD oder Emphysem ohne Dauermedikation
+2016;19;218;108;Mukoviszidose (Alter < 12 Jahre);Sonstige interstitielle Lungenkrankheiten mit Dauermedikation
+2016;19;218;114;Mukoviszidose (Alter < 12 Jahre);Sonstige Erkrankungen der Pleura
+2016;19;218;215;Mukoviszidose (Alter < 12 Jahre);COPD oder Emphysem mit Dauermedikation, Bronchiektasen, sonstige interstitielle Lungenkrankheiten ohne Dauermedikation
+2016;19;218;237;Mukoviszidose (Alter < 12 Jahre);COPD oder Emphysem ohne Dauermedikation
+2016;19;237;114;COPD oder Emphysem ohne Dauermedikation;Sonstige Erkrankungen der Pleura
+2016;20;130;131;Dialysestatus;Hypertensive und/oder chronische Nierenkrankheit/Postoperative Komplikationen und Infektionen im Genitaltrakt
+2016;20;130;132;Dialysestatus;Nephritis und Nierenfunktionsstörung/Sonstige Krankheiten des Urogenitalsystems nach med. Maßnahmen
+2016;20;130;134;Dialysestatus;Fortgeschrittene chronische Niereninsuffizienz
+2016;20;130;136;Dialysestatus;Nierenversagen
+2016;20;130;138;Dialysestatus;Peritoneale Adhäsionen im Becken nach med. Maßnahmen und mechanische Komplikationen im Genitaltrakt
+2016;20;131;132;Hypertensive und/oder chronische Nierenkrankheit/Postoperative Komplikationen und Infektionen im Genitaltrakt;Nephritis und Nierenfunktionsstörung/Sonstige Krankheiten des Urogenitalsystems nach med. Maßnahmen
+2016;20;131;138;Hypertensive und/oder chronische Nierenkrankheit/Postoperative Komplikationen und Infektionen im Genitaltrakt;Peritoneale Adhäsionen im Becken nach med. Maßnahmen und mechanische Komplikationen im Genitaltrakt
+2016;20;133;132;Neurogene Blase/Harnröhrenstriktur nach med. Maßnahmen;Nephritis und Nierenfunktionsstörung/Sonstige Krankheiten des Urogenitalsystems nach med. Maßnahmen
+2016;20;133;138;Neurogene Blase/Harnröhrenstriktur nach med. Maßnahmen;Peritoneale Adhäsionen im Becken nach med. Maßnahmen und mechanische Komplikationen im Genitaltrakt
+2016;20;134;131;Fortgeschrittene chronische Niereninsuffizienz;Hypertensive und/oder chronische Nierenkrankheit/Postoperative Komplikationen und Infektionen im Genitaltrakt
+2016;20;134;132;Fortgeschrittene chronische Niereninsuffizienz;Nephritis und Nierenfunktionsstörung/Sonstige Krankheiten des Urogenitalsystems nach med. Maßnahmen
+2016;20;134;136;Fortgeschrittene chronische Niereninsuffizienz;Nierenversagen
+2016;20;134;138;Fortgeschrittene chronische Niereninsuffizienz;Peritoneale Adhäsionen im Becken nach med. Maßnahmen und mechanische Komplikationen im Genitaltrakt
+2016;20;136;131;Nierenversagen;Hypertensive und/oder chronische Nierenkrankheit/Postoperative Komplikationen und Infektionen im Genitaltrakt
+2016;20;136;132;Nierenversagen;Nephritis und Nierenfunktionsstörung/Sonstige Krankheiten des Urogenitalsystems nach med. Maßnahmen
+2016;20;136;138;Nierenversagen;Peritoneale Adhäsionen im Becken nach med. Maßnahmen und mechanische Komplikationen im Genitaltrakt
+2016;20;138;132;Peritoneale Adhäsionen im Becken nach med. Maßnahmen und mechanische Komplikationen im Genitaltrakt;Nephritis und Nierenfunktionsstörung/Sonstige Krankheiten des Urogenitalsystems nach med. Maßnahmen
+2016;20;144;132;Mechanische Komplikation u. durch Prothese o. Ä. hervorgerufene Infektion im Harntrakt;Nephritis und Nierenfunktionsstörung/Sonstige Krankheiten des Urogenitalsystems nach med. Maßnahmen
+2016;20;144;133;Mechanische Komplikation u. durch Prothese o. Ä. hervorgerufene Infektion im Harntrakt;Neurogene Blase/Harnröhrenstriktur nach med. Maßnahmen
+2016;20;144;138;Mechanische Komplikation u. durch Prothese o. Ä. hervorgerufene Infektion im Harntrakt;Peritoneale Adhäsionen im Becken nach med. Maßnahmen und mechanische Komplikationen im Genitaltrakt
+2016;21;147;146;Mehrlingsschwangerschaft;Schwangerschaft
+2016;22;219;220;Psoriasis und Parapsoriasis mit Dauermedikation;Psoriasis und Parapsoriasis ohne Dauermedikation
+2016;23;153;156;Femurfraktur;Andere Wirbelverletzung mit Angabe der Lokalisation
+2016;23;153;157;Femurfraktur;Andere Verletzungen
+2016;23;155;156;Verletzungen der Wirbelsäule in mehreren Segmenten;Andere Wirbelverletzung mit Angabe der Lokalisation
+2016;23;155;157;Verletzungen der Wirbelsäule in mehreren Segmenten;Andere Verletzungen
+2016;23;156;157;Andere Wirbelverletzung mit Angabe der Lokalisation;Andere Verletzungen
+2016;23;158;157;SHT mit Bewusstlosigkeit ohne Rückkehr zum vorherigen Bewusstseinsgrad;Andere Verletzungen
+2016;23;158;159;SHT mit Bewusstlosigkeit ohne Rückkehr zum vorherigen Bewusstseinsgrad;Sonstige schwere Schädel-Hirn-Traumata
+2016;23;159;157;Sonstige schwere Schädel-Hirn-Traumata;Andere Verletzungen
+2016;23;160;157;Komplikationen im Bereich eines Amputationsstumpfes;Andere Verletzungen
+2016;23;160;162;Komplikationen im Bereich eines Amputationsstumpfes;Traumatische Amputation (ohne Finger und Zehen)
+2016;23;162;157;Traumatische Amputation (ohne Finger und Zehen);Andere Verletzungen
+2016;24;164;165;Schwerwiegende Komplikationen;Andere iatrogene Komplikationen
+2016;24;164;166;Schwerwiegende Komplikationen;Sonstige näher bezeichnete Komplikationen nach med. Maßnahmen / Komplikationen nach Impfung
+2016;24;165;166;Andere iatrogene Komplikationen;Sonstige näher bezeichnete Komplikationen nach med. Maßnahmen / Komplikationen nach Impfung
+2016;25;172;173;Versagen und Abstoßung eines Organtransplantates;Komplikation nach Lebertransplantation
+2016;25;172;174;Versagen und Abstoßung eines Organtransplantates;Zustand nach Herz-, Lungen- o. Herz-Lungen-Transplantation
+2016;25;172;175;Versagen und Abstoßung eines Organtransplantates;Zustand nach Lebertransplantation
+2016;25;172;176;Versagen und Abstoßung eines Organtransplantates;Komplikation und Zustand nach Nierentransplantation
+2016;25;172;177;Versagen und Abstoßung eines Organtransplantates;Komplikation und Zustand nach Haut-, Hornhaut-, Knochen- und sonstiger Gewebe- und Organtransplantation
+2016;25;173;174;Komplikation nach Lebertransplantation;Zustand nach Herz-, Lungen- o. Herz-Lungen-Transplantation
+2016;25;173;175;Komplikation nach Lebertransplantation;Zustand nach Lebertransplantation
+2016;25;173;176;Komplikation nach Lebertransplantation;Komplikation und Zustand nach Nierentransplantation
+2016;25;173;177;Komplikation nach Lebertransplantation;Komplikation und Zustand nach Haut-, Hornhaut-, Knochen- und sonstiger Gewebe- und Organtransplantation
+2016;25;174;175;Zustand nach Herz-, Lungen- o. Herz-Lungen-Transplantation;Zustand nach Lebertransplantation
+2016;25;174;176;Zustand nach Herz-, Lungen- o. Herz-Lungen-Transplantation;Komplikation und Zustand nach Nierentransplantation
+2016;25;174;177;Zustand nach Herz-, Lungen- o. Herz-Lungen-Transplantation;Komplikation und Zustand nach Haut-, Hornhaut-, Knochen- und sonstiger Gewebe- und Organtransplantation
+2016;25;175;176;Zustand nach Lebertransplantation;Komplikation und Zustand nach Nierentransplantation
+2016;25;175;177;Zustand nach Lebertransplantation;Komplikation und Zustand nach Haut-, Hornhaut-, Knochen- und sonstiger Gewebe- und Organtransplantation
+2016;25;176;177;Komplikation und Zustand nach Nierentransplantation;Komplikation und Zustand nach Haut-, Hornhaut-, Knochen- und sonstiger Gewebe- und Organtransplantation
+2016;25;178;180;Versagen eines Stammzelltransplantates / chronische GvHD ausgeprägte Form / akute GvHD Schweregrad III/IV;Akute GvHD Schweregrad I/II, sonstige GvHD, Zustand nach hämatopoet. Stammzelltransplantation mit gegenwärtiger Immunsuppression
+2016;27;169;170;Schwere angeborene Fehlbildungen der Atmungs- und Verdauungsorgane;Sonstige angeborene Fehlbildungen des Zwerchfells und der Verdauuungsorgane
+2016;27;169;238;Schwere angeborene Fehlbildungen der Atmungs- und Verdauungsorgane;Angeborene Anomalien der Lunge / des respiratorischen Systems
+2016;27;238;170;Angeborene Anomalien der Lunge / des respiratorischen Systems;Sonstige angeborene Fehlbildungen des Zwerchfells und der Verdauuungsorgane
+2016;28;253;252;Chronischer Schmerz mit Dauermedikation;Chronischer Schmerz
