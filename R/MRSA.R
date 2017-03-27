@@ -77,14 +77,40 @@ MRSA<-function(theObject,
   B<-solver(theObject@X,Y,w,M)                         # Löse Gleichungssystem über solver
 
   if(Hierarchie==TRUE){
-     data(Hierarchie_Daten)
-     if(!theObject@jahr %in% Hierarchie_Daten$Jahr){
-        stop(paste0("Keine Hierarchisierung für Datenjahr ",theObject@jahr," möglich"))
-     }
-     Fehler<-Hierarchie_Kontrolle(B,theObject)
-     theObject<-Hierarchie_Anwendung(Fehler,theObject)
 
-     B<-solver(theObject@X,Y,w,M)
+    data(Hierarchie_Daten)
+    if(!theObject@jahr %in% Hierarchie_Daten$Jahr){
+      stop(paste0("Keine Hierarchisierung für Datenjahr ",theObject@jahr," möglich"))
+    }
+
+     B_orig <- B0 <- B
+     Fehler <- c()
+     theObject_temp <- theObject
+     repeat{
+       if(sum(B<0)<1){break}
+       Fehler <- c(Fehler,Null_Kontrolle(B))
+       theObject_temp <- Null_Anwenden(Fehler,theObject)
+       B0 <- solver(theObject_temp@X,Y,w,theObject_temp@X@i+1)
+
+       B <- B_orig
+       B[Fehler] <- 0
+       B[-Fehler] <- B0
+
+     }
+
+     Fehler_0 <- Fehler
+
+     B_orig <- B
+
+     Fehler<-Hierarchie_Kontrolle(B,theObject_temp)
+     theObject_temp<-Hierarchie_Anwendung(Fehler,theObject_temp)
+
+     B0 <- solver(theObject_temp@X,Y,w,theObject_temp@X@i+1)
+
+     B <- Hierarchie_Koef(B0,B_orig,Fehler)
+
+     B[Fehler_0] <- 0
+
   }
 
   Z<-(theObject@X%*%B*w)@x
@@ -157,7 +183,21 @@ Zuschlaege.MRSA<-function(fit.MRSA,GP){
 }
 
 
-
+Null_Kontrolle <- function(B){
+   for(i in 1:length(B)){
+     if(B[i] < 0){
+       cat(paste0(names(B)[i]," < 0 "))
+       cat("\n")
+     }
+   }
+   return(which(B<0))
+}
+Null_Anwenden  <- function(Fehler,theObject){
+  X <- theObject@X
+  X <- X[,-Fehler]
+  theObject@X <- X
+  return(theObject)
+}
 
 Hierarchie_Kontrolle<-function(B, theObject){
   if("HMG" %in% substring(names(B),1,3)){
@@ -207,8 +247,6 @@ Hierarchie_Kontrolle<-function(B, theObject){
 
 }
 
-
-
 Hierarchie_Anwendung<-function(Fehler,theObject){
   if(nrow(Fehler)==1){
     return(theObject)
@@ -234,4 +272,29 @@ Hierarchie_Anwendung<-function(Fehler,theObject){
 
   return(theObject)
 
+}
+
+
+Hierarchie_Koef <- function(B0,B_orig,Fehler){
+
+  B <- B0
+  n_B0 <- names(B0)
+  n_B  <- names(B_orig)
+
+  for(i in 1:length(B_orig)){
+    if(n_B[i] %in% n_B0){
+       a <- n_B[i]
+       B[i] <- B0[which(n_B0==n_B[i])]
+    }else{
+       a <- n_B[i]
+       aa <- Fehler$A[Fehler$B==a][1]
+       if(aa %in% n_B0){
+         B[i] <- B0[which(n_B0==aa)]
+       }
+    }
+  }
+
+  names(B) <- names(B_orig)
+
+  return(B)
 }

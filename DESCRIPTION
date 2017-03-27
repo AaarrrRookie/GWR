@@ -1,7 +1,7 @@
 Package: GWR
 Type: Package
 Title: fGWR
-Version: 0.3.4
+Version: 0.4.0
 Author: Danny Wende
 Maintainer: Danny Wende <wende@wig2.de>
 Description: fast regression of the german "Morbi-RSA" (risk ajustment) and calculation regional models.
