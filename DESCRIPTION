@@ -10,6 +10,6 @@ BugReports: http://github.com/AaarrrRookie/GWR/issues
 License: proprietary
 LazyData: FALSE
 Imports:
-    Rcpp (>= 0.12.4), RcppEigen, data.table, Matrix, openxlsx
+    Rcpp (>= 0.12.4), RcppEigen,RcppProgress, data.table, Matrix, openxlsx
 LinkingTo:
-    Rcpp, RcppEigen, data.table, Matrix, openxlsx
+    Rcpp, RcppEigen,RcppProgress, data.table, Matrix, openxlsx

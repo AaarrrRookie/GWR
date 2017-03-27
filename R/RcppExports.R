@@ -25,8 +25,8 @@ GWR_core2 <- function(Match, D, i, p, n, nc) {
     .Call('GWR_GWR_core2', PACKAGE = 'GWR', Match, D, i, p, n, nc)
 }
 
-GWR_core1 <- function(Match, D, Y) {
-    .Call('GWR_GWR_core1', PACKAGE = 'GWR', Match, D, Y)
+GWR_core_time <- function(Match, D, Y) {
+    .Call('GWR_GWR_core_time', PACKAGE = 'GWR', Match, D, Y)
 }
 
 MoranI <- function(Match, plz, Dplz, D, Y, TSS) {

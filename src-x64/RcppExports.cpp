@@ -96,16 +96,16 @@ BEGIN_RCPP
     return rcpp_result_gen;
 END_RCPP
 }
-// GWR_core1
-NumericVector GWR_core1(Eigen::Map<Eigen::VectorXi> Match, Eigen::Map<Eigen::MatrixXd> D, Eigen::Map<Eigen::VectorXd> Y);
-RcppExport SEXP GWR_GWR_core1(SEXP MatchSEXP, SEXP DSEXP, SEXP YSEXP) {
+// GWR_core_time
+NumericVector GWR_core_time(Eigen::Map<Eigen::VectorXi> Match, Eigen::Map<Eigen::MatrixXd> D, Eigen::Map<Eigen::VectorXd> Y);
+RcppExport SEXP GWR_GWR_core_time(SEXP MatchSEXP, SEXP DSEXP, SEXP YSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
     Rcpp::traits::input_parameter< Eigen::Map<Eigen::VectorXi> >::type Match(MatchSEXP);
     Rcpp::traits::input_parameter< Eigen::Map<Eigen::MatrixXd> >::type D(DSEXP);
     Rcpp::traits::input_parameter< Eigen::Map<Eigen::VectorXd> >::type Y(YSEXP);
-    rcpp_result_gen = Rcpp::wrap(GWR_core1(Match, D, Y));
+    rcpp_result_gen = Rcpp::wrap(GWR_core_time(Match, D, Y));
     return rcpp_result_gen;
 END_RCPP
 }

@@ -15,7 +15,7 @@ using Eigen::MatrixXd;
 using namespace Rcpp;
 
 // [[Rcpp::export]]
-NumericVector GWR_core1(Eigen::Map<Eigen::VectorXi> Match, Eigen::Map<Eigen::MatrixXd> D, Eigen::Map<Eigen::VectorXd> Y) {
+NumericVector GWR_core_time(Eigen::Map<Eigen::VectorXi> Match, Eigen::Map<Eigen::MatrixXd> D, Eigen::Map<Eigen::VectorXd> Y) {
   int n = Y.size();
   int nr = D.rows();
   NumericVector b(nr);

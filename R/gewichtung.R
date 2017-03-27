@@ -14,6 +14,20 @@ distanz<-function(plz_P,plz){
   return(list(D=D,Coord=Coord,Match=Match,plz=plz,Dplz=Dplz))
 }
 
+distanz_comb <- function(Point_Z,Point_S,Point){
+
+  D<-matrix(NA,nrow(Point_Z),nrow(Point_S))
+  for(i in 1:nrow(Point_S)){
+    x <- 71.5 *(Point_Z$X - Point_S$X[i])
+    y <- 111.3 *(Point_Z$Y - Point_S$Y[i])
+    D[,i]<-sqrt(x^2+y^2)
+  }
+
+  Match <- match(Point,Point_S$Point)
+  D <- D[,Match]
+
+  return(D)
+}
 
 distanz_zeit<-function(plz_P,plz,zeit){
 

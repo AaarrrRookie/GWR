@@ -199,7 +199,7 @@ Hierarchie_Kontrolle<-function(B, theObject){
   }
 
   if(length(Fehler)==0){
-    rreturn(data.frame(0))
+    return(data.frame(0))
   }else{
     Fehler<-Hierarchie_Baum[Fehler,]
     return(Fehler)
